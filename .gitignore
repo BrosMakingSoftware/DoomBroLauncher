@@ -1,0 +1,26 @@
+# Game formats (we don't want to distribute this with games)
+*.wad
+*.WAD
+*.pk3
+*.PK3
+*.zip
+*.ZIP
+
+# Ignore personal gaming data
+Doom/DoomBroLauncher/saves/*.zds
+Doom/DoomBroLauncher/screenshots/*.png
+
+# Binaries
+*.so
+*.dll
+*.pyo
+*.pyc
+*.pyd
+*.exe
+*.jar
+*.class
+
+# Caches, attributes or temporal system files
+Thumbs.db
+.DS_Store
+.*~
