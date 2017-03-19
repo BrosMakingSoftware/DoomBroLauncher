@@ -154,11 +154,17 @@ We know that everyday a new Doom mod is released, so we wanted DoomBroLauncher t
 #### Create a script for an IWAD (complete games)
 As example, we are going to add a script for [The Ultimate Doom](http://doom.wikia.com/wiki/The_Ultimate_Doom):
 1. Copy your IWAD file into `Doom/DoomBroLauncher/wads` folder, for example `DOOMU.WAD`
+
 2. Navigate to `Doom/DoomBroLauncher/config` folder
+
 3. Copy the file called `IWAD-Template.bat` and paste it in `Doom` folder
+
 4. Rename the bat file using a descriptive name, for example `Doom 1 (The Ultimate Doom).bat`, do not remove its `.bat` extension
+
 5. Open the bat file with any text editor
+
 6. Check its last line and notice the name `YOUR-IWAD.WAD`, you need to replace that with the actual name of your IWAD, for example `DOOMU.WAD`
+
 7. Save the bat file and you are ready to run your game
 
 The final result should look like this:
@@ -166,13 +172,44 @@ The final result should look like this:
 #### Create a script for a PWAD (a mod for a game)
 As example, we are going to add a script for [The Lost Episode, "Evil Unleashed"](http://doom.wikia.com/wiki/Doom:_The_Lost_Episode):
 1. Copy your PWAD file into `Doom/DoomBroLauncher/wads` folder, for example `lostepis.wad`
+
 2. Navigate to `Doom/DoomBroLauncher/config` folder
+
 3. Copy the file called `PWAD-Template.bat` and paste it in `Doom` folder
+
 4. Rename the bat file using a descriptive name, for example `The Lost Episode (Evil Unleashed).bat`, do not remove its `.bat` extension
+
 5. Open the bat file with any text editor
+
 6. Check its last line and notice the name `YOUR-IWAD.WAD`, you need to replace that with the actual name of the IWAD needed by the mod, in this case `DOOMU.WAD` and the name `YOUR-PWAD.WAD` needs to be replaced by the name of the mod, in this case `lostepis.wad`
+
 7. Save the bat file and you are ready to run your game
 
 The final result should look like this:
 
 ### Integration with EmulationStation
+
+This guide is for people which is familiar with EmulationStation configuration, for more details about it, check http://emulationstation.org/gettingstarted.html#config
+For this guide, I'm going to use my personal Windows HTPC configuration with its original paths, you don't need to use the same paths or names, they are used here as an example.
+
+The first thing to do, is to define a path where the Doom games would be stored, for this case I'm going to store them on `C:\Console\Emulation\roms\pc`, next to my other roms folders.
+You can put Doom either on `pc` or `port` folders, but personally I prefer them on `pc` since EmulationStation lists the game using the MS-DOS themes. On this folder you will need to install DoomBroLauncher, follow the installation steps specified at the beginning of this document.
+
+Once DoomBroLauncher is installed, as well as your Doom wads, you need to add the _PC_ system on your EmulationStation settings, for that go to your `.emulationstation` folder and open the file called `es_systems.cfg` and add the following code at the end of the file, but before the closure of the `</systemList>` element:
+
+```XML
+<system>
+  <name>pc</name>
+  <fullname>PC</fullname>
+  <path>C:\Console\Emulation\roms\pc</path>
+  <extension>.bat</extension>
+  <command>%ROM%</command>
+  <platform>pc</platform>
+  <theme>pc</theme>
+</system>
+```
+This code basically tells EmulationStation to go the PC path, scan and display the `.bat` files, and when one you select one, it would be executed as a command on console, most of the time you will see commands to call for example RetroArch or other emulators, but this case we are delegating this logic to the DoomBroLauncher scripts, so we just want it to be executed.
+
+At this point you are able to play your Doom games, but there is one detail that EmulationStation can't handle, and it is the scrape of images and metadata for each game, the checksum of the rom (in this case the `.bat` files) will not help to find the game on the DB, but the DB doesn't actually have good information about these games, at least for their PC version, and some information is wrong like the dates. So as part of DoomBroLauncher we are adding the metadata and pictures needed to display your Doom games the best way possible.
+
+Once again go to your `.emulationstation` folder, enter to the folders `gamelists\pc` (if this folder doesn't exist, create it), and open the file `gamelist.xml`

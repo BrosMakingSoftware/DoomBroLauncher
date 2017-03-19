@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./Doom I (Shareware).bat</path>
+		<name>Doom I (Shareware)</name>
+		<desc>Shareware is a software marketing concept where an incomplete or time-limited version of a program is released to entice people into buying the full (registered) version. Doom was initially released as shareware, containing only the first respective nine-level episode in the unregistered version: Knee-Deep in the Dead.</desc>
+		<image>~/.emulationstation/downloaded_images/pc/DOOM1.png</image>
+		<rating>0.8</rating>
+		<releasedate>19931210T000000</releasedate>
+		<developer>Id Software</developer>
+		<publisher>Id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1-4</players>
+	</game>
+	<game>
+		<path>./Doom I (The Ultimate Doom).bat</path>
+		<name>Doom I (The Ultimate Doom)</name>
+		<desc>Doom has a simple plot; its background is given in the instruction manual, and the in-game story advances mainly through short messages displayed between the game's episodes.
+The player takes the role of a marine (unnamed to further represent the person playing), one of Earth's toughest, hardened in combat and trained for action, who has been incarcerated on Mars after assaulting a senior officer when ordered to fire upon civilians. There, he works alongside the Union Aerospace Corporation (UAC), a multi-planetary conglomerate and military contractor performing secret experiments on interdimensional travel. Recently, the teleportation has shown signs of anomalies and instability, but the research continues nonetheless.
+Suddenly, something goes wrong and creatures from hell swarm out of the teleportation gates on Deimos and Phobos. A defensive response from base security fails to halt the invasion, and the bases are quickly overrun by monsters; all personnel are killed or turned into zombies.
+A military detachment from Mars travels to Phobos to investigate the incident. The player is tasked with securing the perimeter, as the assault team and their heavy weapons are brought inside. Radio contact soon ceases and the player realizes that he is the only survivor. Being unable to pilot the shuttle off of Phobos by himself, the only way to escape is to go inside and fight through the complexes of the moon base.</desc>
+		<image>~/.emulationstation/downloaded_images/pc/DOOMU.jpg</image>
+		<rating>0.8</rating>
+		<releasedate>19950430T000000</releasedate>
+		<developer>Id Software</developer>
+		<publisher>Id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1-4</players>
+	</game>
+	<game>
+		<path>./Doom II (Hell on Earth).bat</path>
+		<name>Doom II: Hell on Earth</name>
+		<desc>The player once again takes the role of the Marine, an unnamed hero, who, after being stranded on Phobos and subsequently fighting his way out of Deimos and Hell itself, returns back home to Earth - only to find that it too has fallen victim to an invasion from Hell.
+With all the major cities in the world in ruins, the remaining leaders plan to use spacecrafts to transport the survivors of Earth's population. However, the starport is the only way for the ships to depart and the demons have protected it with a force field. All of humanity's remaining soldiers make a desperate assault on the starport, but eventually they are decimated and only the player remains.
+The Marine manages to enter the infested starport, slay all the demons in his way and is able to shut down the force field. Humanity is able to escape, and he sits quietly waiting for death, knowing he saved his species.
+Then, the remaining humans have discovered the source of the hellish invasion: the Marine's own hometown. He gets back into the fight and exterminates the hellspawn from the town, and finds another entryway into hell.
+To close the portal, he must enter hell again to stop the invasion. After journeying through its twisted surface, the Marine manages to confront the Icon of Sin, a gigantic demon, and kills it. Its gruesome death causes devastation on Hell, and the portal to Earth has been sealed.</desc>
+		<image>~/.emulationstation/downloaded_images/pc/DOOM2.jpg</image>
+		<rating>0.8</rating>
+		<releasedate>19941010T000000</releasedate>
+		<developer>Id Software</developer>
+		<publisher>Id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1-4</players>
+	</game>
+	<game>
+		<path>./Final Doom (1st Episode) TNT Evilution.bat</path>
+		<name>Final Doom (1st Episode): TNT Evilution</name>
+		<desc>In TNT: Evilution the UAC once again are intent on developing and experimenting with dimensional gateway technology. They set up a base on Io, one of the moons of Jupiter, with a solid detachment of space marines for protection. The marines do their job well: when the first experimental gateway is opened they annihilate the forces of Hell. Anything that came through the gateway was immediately destroyed by the marines, and so research on the gateways continued.
+Later, the yearly supply ship came earlier than expected, and looks strange and unusually large on the radar. The personnel of the base go out to behold the terrible truth: it is a spaceship from Hell, built of steel, stone, flesh, bone and corruption. The ship's enormous gates open to unleash a rain of demons on the base. Quickly, the whole base is overrun, and everyone is slain or zombified.
+The Doomguy, now in command of the marine deployment, has been away on a walk, and has thus escaped death or zombification. After being attacked by an imp he rushes back to the base, where he sees the demonic spaceship still hovering above it and realizes what has happened. Then he swears that he will seek vengeance for his slain troops, and sets out to kill as many evil creatures as possible.
+In the end, the marine defeats the Demon-Spitter, and the game describes Something rumbles in the distance. A blue light begins to glow inside the ruined skull of the Demon-Spitter.</desc>
+		<image>~/.emulationstation/downloaded_images/pc/FINALDOOM.jpg</image>
+		<rating>0.8</rating>
+		<releasedate>19960531T000000</releasedate>
+		<developer>Id Software</developer>
+		<publisher>Id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1-4</players>
+	</game>
+	<game>
+		<path>./Final Doom (2nd Episode) Plutonia Experiment.bat</path>
+		<name>Final Doom (2nd Episode): Plutonia Experiment</name>
+		<desc>After Hell's catastrophic invasion of Earth, the global governments decide to take measures against any possible future invasion, knowing that the powers of Hell still remain strong. The UAC corporation is refounded under completely new management (the old trustees and stockholders are all dead in any case) and aims to develop tools that would prevent demonic invasions. It is said that the new UAC base is on one of Jupiter's moons, Io. UAC's scientists thought that this distance from Earth might prevent another catastrophic invasion, but as the events of TNT: Evilution showed, this was not the case. Something else would be needed.
+UAC's scientists start working on quantum accelerator devices intended to close interdimensional gates and stop possible invasions. The experiments are carried out in a secret research complex, with a stationed detachment of marines. The work seems to be going well, but...
+The creatures from Outside have their dire attention drawn towards the new research. A gate opens in the heart of the complex and unnatural horrors pour out. The quantum accelerator performs superbly - the gate is quickly closed and the invasion stopped. Research continues more boldly.
+On the next day, a ring of seven gates opens and an even greater invasion commences. For a single hour the quantum accelerators manage to close six of the seven gates... but the hellish army has become too numerous and too strong. The complex is overrun. Everyone present is slain, or zombified. The last gate of Hell remains open, manned and guarded by a demon Gatekeeper.
+The government, frantic that the quantum accelerator will be destroyed or used in some evil alien fashion against humanity, orders all marines to the site at once. Doomguy is the closest one to the site and gets there first. There he concludes that by the time reinforcements arrive that the demons will be too numerous and powerful.
+The marine decides to enter the complex and stop the Gatekeeper alone.</desc>
+		<image>~/.emulationstation/downloaded_images/pc/FINALDOOM.jpg</image>
+		<rating>0.8</rating>
+		<releasedate>19960531T000000</releasedate>
+		<developer>Id Software</developer>
+		<publisher>Id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1-4</players>
+	</game>
+	<game>
+		<path>./Doom I Mod - Tech Gone Bad (John Romero) [E1M8].bat</path>
+		<name>Doom I Mod - Tech Gone Bad (John Romero) [E1M8]</name>
+		<desc>John Romero's version of E1M8 for Doom I.
+
+After exiting the Computer Station you knew the worst was up ahead. You still hadn't reached the place where the demons were coming from. The steel door shuts behind you as you realize you're there; you're at the Phobos Anomaly. Cracks from hell are all over the place as seepage from the portal invades the entire installation. Now it's time to find the portal and stop the demons from coming through. You know UAC had hundreds of scientists working at a high-tech lab somewhere in this area, and the portal must be connected to it somehow. Time to lock and load.
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/E1M8.png</image>
+		<rating></rating>
+		<releasedate>20160115T000000</releasedate>
+		<developer>John Romero</developer>
+		<publisher>John Romero</publisher>
+		<genre>FPS, Action</genre>
+		<players>1-4</players>
+	</game>
+</gameList>

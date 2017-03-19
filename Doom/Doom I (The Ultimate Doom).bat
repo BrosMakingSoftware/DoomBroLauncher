@@ -9,6 +9,5 @@ REM ---------- End of Script Template ----------
 
 
 REM Now on our working folder, we call the port with our wads and common parameters
-REM We are calling Doom Complete as our main game
-REM More info here: https://forum.zdoom.org/viewtopic.php?f=44&t=52757
-%PORT_EXECUTABLE% %PORT_PARAMETERS% -iwad wads\doom_complete.pk3
+REM We are calling Doom 1 Ultimate as our main game
+%PORT_EXECUTABLE% %PORT_PARAMETERS% -iwad wads\DOOMU.WAD

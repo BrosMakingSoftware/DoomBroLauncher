@@ -9,6 +9,6 @@ REM ---------- End of Script Template ----------
 
 
 REM Now on our working folder, we call the port with our wads and common parameters
-REM We are calling Doom Complete as our main game
-REM More info here: https://forum.zdoom.org/viewtopic.php?f=44&t=52757
-%PORT_EXECUTABLE% %PORT_PARAMETERS% -iwad wads\doom_complete.pk3
+REM We are calling Doom 2 as our main game with BETRAY mod and start automatically on that level
+REM More info here: http://classicdoom.com/xboxspec.htm
+%PORT_EXECUTABLE% %PORT_PARAMETERS% -iwad wads\DOOM2.WAD -file wads\BETRAY.WAD -warp 1
