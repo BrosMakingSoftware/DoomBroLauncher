@@ -9,6 +9,8 @@ REM ---------- End of Script Template ----------
 
 
 REM Now on our working folder, we call the port with our wads and common parameters
-REM We are calling Doom 2 as our main game with BETRAY mod and start automatically on that level
-REM More info here: http://classicdoom.com/xboxspec.htm
-%PORT_EXECUTABLE% %PORT_PARAMETERS% -iwad wads\DOOM2.WAD -file wads\BETRAY.WAD -warp 1
+REM We are calling Doom Ultimate as our main game with e1m8b mod and start automatically on that level
+REM Besides Doom Ultimate, it can be run using Doom 1 Shareware
+REM More info here: https://twitter.com/romero/status/688054778790834176
+%PORT_EXECUTABLE% %PORT_PARAMETERS% -iwad wads\DOOMU.WAD -file wads\e1m8b.wad +map E1M8 %SKILL_DEFAULT%
+pause

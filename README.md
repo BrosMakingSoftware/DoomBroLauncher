@@ -208,7 +208,7 @@ Once DoomBroLauncher is installed, as well as your Doom wads, you need to add th
   <theme>pc</theme>
 </system>
 ```
-This code basically tells EmulationStation to go the PC path, scan and display the `.bat` files, and when one you select one, it would be executed as a command on console, most of the time you will see commands to call for example RetroArch or other emulators, but this case we are delegating this logic to the DoomBroLauncher scripts, so we just want it to be executed.
+This code basically tells EmulationStation to go the PC path, scan and display the `.bat` files, and when you select one, it would be executed as a command on console, most of the time you will see commands to call for example RetroArch or other emulators, but in this case we are delegating this logic to the DoomBroLauncher scripts, so we just want it to be executed.
 
 At this point you are able to play your Doom games, but there is one detail that EmulationStation can't handle, and it is the scrape of images and metadata for each game, the checksum of the rom (in this case the `.bat` files) will not help to find the game on the DB, but the DB doesn't actually have good information about these games, at least for their PC version, and some information is wrong like the dates. So as part of DoomBroLauncher we are adding the metadata and pictures needed to display your Doom games the best way possible.
 

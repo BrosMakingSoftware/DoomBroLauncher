@@ -9,6 +9,6 @@ REM ---------- End of Script Template ----------
 
 
 REM Now on our working folder, we call the port with our wads and common parameters
-REM We are calling Doom Ultimate as our main game with SEWERS mod and start automatically on that level
+REM We are calling Doom 2 as our main game with BETRAY mod and start automatically on that level
 REM More info here: http://classicdoom.com/xboxspec.htm
-%PORT_EXECUTABLE% %PORT_PARAMETERS% -iwad wads\DOOMU.WAD -file wads\SEWERS.WAD -warp 3 1
+%PORT_EXECUTABLE% %PORT_PARAMETERS% -iwad wads\DOOM2.WAD -file wads\BETRAY.WAD +map MAP01 %SKILL_DEFAULT%

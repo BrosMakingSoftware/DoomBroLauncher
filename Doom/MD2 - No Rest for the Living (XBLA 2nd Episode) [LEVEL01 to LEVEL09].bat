@@ -11,4 +11,5 @@ REM ---------- End of Script Template ----------
 REM Now on our working folder, we call the port with our wads and common parameters
 REM We are calling Doom 2 as our main game with BETRAY mod and start automatically on that level
 REM More info here: http://classicdoom.com/xboxspec.htm
-%PORT_EXECUTABLE% %PORT_PARAMETERS% -iwad wads\DOOM2.WAD -file wads\BETRAY.WAD -warp 1
+REM Parameter "+map" usage with NERVE.WAD: https://forum.zdoom.org/viewtopic.php?f=4&t=35840
+%PORT_EXECUTABLE% %PORT_PARAMETERS% -iwad wads\DOOM2.WAD -file wads\NERVE.WAD +map LEVEL01 %SKILL_DEFAULT%
