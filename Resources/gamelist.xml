@@ -1,10 +1,92 @@
 <?xml version="1.0"?>
 <gameList>
+
 	<game>
-		<path>./Doom I (Shareware).bat</path>
-		<name>Doom I (Shareware)</name>
-		<desc>Shareware is a software marketing concept where an incomplete or time-limited version of a program is released to entice people into buying the full (registered) version. Doom was initially released as shareware, containing only the first respective nine-level episode in the unregistered version: Knee-Deep in the Dead.</desc>
-		<image>~/.emulationstation/downloaded_images/pc/DOOM1.png</image>
+		<path>./All Official Dooms (WadSmoosh's Doom Complete).bat</path>
+		<name>All Official Dooms (WadSmoosh's Doom Complete)</name>
+		<desc>
+			Doom Complete is a compilation of all the classic Doom games officially released by id Software, also including extra maps from Doom special editions which were officially released too. All the episodes of Doom are merged in one single game and can be started without restarting it. Doom Complete has a total of 160 levels grouped in 9 episodes. To merge all levels, the WadSmoosh's Doom Complete tool is used and can be found at https://forum.zdoom.org/viewtopic.php?f=44&t=52757
+
+			The Episodes are displayed on a single list ordered chronologically based on the game series, grouping the episodes based on the games, we have the following structure:
+
+			The Ultimate Doom:
+			- Knee-Deep in the Dead: With the addition of “Sewers”, a secret exclusive level from Xbox (bug-fixed version)
+			- The Shores of Hell
+			- Inferno
+			- Thy Flesh Consumed
+
+			Doom II:
+			- Hell on Earth: With the addition of “Betray”, another secret exclusive level from Xbox (bug-fixed version)
+			- No Rest for the Living: New episode from Doom 3 BFG Edition with 9 levels (1 is secret). Since this level is played using the original Doom II, you can play it uncensored.
+			- The Master Levels: The expansion called “Master Levels for Doom II” grouped in one episode
+
+			Final Doom:
+			- TNT Evilution
+			- The Plutonia Experiment
+
+
+			Credits:
+
+			Doom:
+			Description: Original MS-DOS version. It was originally distributed as a shareware containing just the first episode called “Knee-Deep in the Dead” including 9 levels, while the full registered version added the second episode called “The Shores of Hell” including 9 levels (1 is secret), and the third episode called “Inferno” including 9 levels (1 is secret), for a total of 3 episodes and 27 levels.
+			Released date: December 10, 1993
+			Developed by: id Software
+			Published by: id Software
+
+			The Ultimate Doom:
+			Description: Original MS-DOS version. Contains the 3 episodes of the previous Doom version and adds a new fourth episode called “Thy Flesh Consumed” including 9 episodes (1 is secret), for a total of 4 episodes and 32 levels.
+			Release date: April 30, 1995
+			Developed by: id Software
+			Published by: id Software
+
+			“Sewers” and “Betray” Levels:
+			Description: “Sewers” for Ultimate Doom, and “Betray” for Doom II are exclusives Xbox levels released as a bonus for Doom 3 Limited Collector's Edition (first appearance) and then again on Doom 3 Resurrection of Evil. Both levels are secret which means that a secret exit is needed to access them, the secret exit to “Sewers” is located at E1M1 while the secret exit to “Betray” is located at MAP02. Levels are technically known as SEWERS.WAD and BETRAY.WAD. A bug-fixed PC versions for these levels can be found at http://www.classicdoom.com/xboxspec.htm
+			Release date: April 3, 2005
+			Developed by: Vicarious Visions, id Software
+			Published by: Activision
+
+			Doom II: Hell on Earth:
+			Description: Original MS-DOS version. Includes 32 levels (2 are secrets), levels are not grouped in episodes.
+			Release date: September 30, 1994
+			Developed by: id Software
+			Published by: id Software
+
+			“No Rest for the Living” Episode:
+			Description: After grouping the original 32 levels of Doom II in an episode called “Hell on Earth”, “No Rest for the Living” adds a second episode which was released as a bonus for Doom II on Xbox Live Arcade for the Xbox 360 (first appearance), later on Doom 3 BFG Edition and Doom Classic Collection. This episode contains 9 levels (1 is secret).
+			Release date: May 26, 2010
+			Developed by: Nerve Software
+			Published by: Activision (original publisher), Bethesda Softworks (replacing it on October 31, 2012)
+
+			Master Levels for Doom II:
+			Description: Original MS-DOS version. This is an expansion for Doom II including 21 levels (1 is secret). They are not grouped in episodes and originally they are ordered alphabetically based on the maps file names. Since they are individual levels, health, armor, weapons and ammo are not carried over, each level is started with the initial status.
+			Release date: December 26, 1995
+			Developed by: id Software
+			Published by: id Software
+
+			Final Doom:
+			Description: Original MS-DOS version. Final Doom is a compilation of 2 games, “TNT: Evilution” containing 32 levels (2 are secrets), and “The Plutonia Experiment” containing 32 levels (2 are secrets), for a total of 64 levels.
+			Release date: June 17, 1996
+			Developed by: TeamTNT, id Software
+			Published by: id Software
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/complete.png</image>
+		<rating>0.9</rating>
+		<releasedate>20160705T000000</releasedate>
+		<developer>Id Software</developer>
+		<publisher>Id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1-4</players>
+	</game>
+
+	<game>
+		<path>./Doom 1 - Shareware.bat</path>
+		<name>Doom 1 - Shareware</name>
+		<desc>
+			Shareware is a software marketing concept where an incomplete or time-limited version of a program is released to entice people into buying the full (registered) version. Doom was initially released as shareware, containing only the first respective nine-level episode in the unregistered version: Knee-Deep in the Dead.
+
+			Download a shareware version at https://doomworld.com/pageofdoom/shareware.html
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/doom1.png</image>
 		<rating>0.8</rating>
 		<releasedate>19931210T000000</releasedate>
 		<developer>Id Software</developer>
@@ -12,14 +94,20 @@
 		<genre>FPS, Action</genre>
 		<players>1-4</players>
 	</game>
+
 	<game>
-		<path>./Doom I (The Ultimate Doom).bat</path>
-		<name>Doom I (The Ultimate Doom)</name>
-		<desc>Doom has a simple plot; its background is given in the instruction manual, and the in-game story advances mainly through short messages displayed between the game's episodes.
-The player takes the role of a marine (unnamed to further represent the person playing), one of Earth's toughest, hardened in combat and trained for action, who has been incarcerated on Mars after assaulting a senior officer when ordered to fire upon civilians. There, he works alongside the Union Aerospace Corporation (UAC), a multi-planetary conglomerate and military contractor performing secret experiments on interdimensional travel. Recently, the teleportation has shown signs of anomalies and instability, but the research continues nonetheless.
-Suddenly, something goes wrong and creatures from hell swarm out of the teleportation gates on Deimos and Phobos. A defensive response from base security fails to halt the invasion, and the bases are quickly overrun by monsters; all personnel are killed or turned into zombies.
-A military detachment from Mars travels to Phobos to investigate the incident. The player is tasked with securing the perimeter, as the assault team and their heavy weapons are brought inside. Radio contact soon ceases and the player realizes that he is the only survivor. Being unable to pilot the shuttle off of Phobos by himself, the only way to escape is to go inside and fight through the complexes of the moon base.</desc>
-		<image>~/.emulationstation/downloaded_images/pc/DOOMU.jpg</image>
+		<path>./Doom 1 - The Ultimate Doom.bat</path>
+		<name>Doom 1 - The Ultimate Doom</name>
+		<desc>
+			Doom has a simple plot; its background is given in the instruction manual, and the in-game story advances mainly through short messages displayed between the game's episodes.
+
+			The player takes the role of a marine (unnamed to further represent the person playing), one of Earth's toughest, hardened in combat and trained for action, who has been incarcerated on Mars after assaulting a senior officer when ordered to fire upon civilians. There, he works alongside the Union Aerospace Corporation (UAC), a multi-planetary conglomerate and military contractor performing secret experiments on interdimensional travel. Recently, the teleportation has shown signs of anomalies and instability, but the research continues nonetheless.
+
+			Suddenly, something goes wrong and creatures from hell swarm out of the teleportation gates on Deimos and Phobos. A defensive response from base security fails to halt the invasion, and the bases are quickly overrun by monsters; all personnel are killed or turned into zombies.
+
+			A military detachment from Mars travels to Phobos to investigate the incident. The player is tasked with securing the perimeter, as the assault team and their heavy weapons are brought inside. Radio contact soon ceases and the player realizes that he is the only survivor. Being unable to pilot the shuttle off of Phobos by himself, the only way to escape is to go inside and fight through the complexes of the moon base.
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/doomu.jpg</image>
 		<rating>0.8</rating>
 		<releasedate>19950430T000000</releasedate>
 		<developer>Id Software</developer>
@@ -27,15 +115,22 @@ A military detachment from Mars travels to Phobos to investigate the incident. T
 		<genre>FPS, Action</genre>
 		<players>1-4</players>
 	</game>
+
 	<game>
-		<path>./Doom II (Hell on Earth).bat</path>
-		<name>Doom II: Hell on Earth</name>
-		<desc>The player once again takes the role of the Marine, an unnamed hero, who, after being stranded on Phobos and subsequently fighting his way out of Deimos and Hell itself, returns back home to Earth - only to find that it too has fallen victim to an invasion from Hell.
-With all the major cities in the world in ruins, the remaining leaders plan to use spacecrafts to transport the survivors of Earth's population. However, the starport is the only way for the ships to depart and the demons have protected it with a force field. All of humanity's remaining soldiers make a desperate assault on the starport, but eventually they are decimated and only the player remains.
-The Marine manages to enter the infested starport, slay all the demons in his way and is able to shut down the force field. Humanity is able to escape, and he sits quietly waiting for death, knowing he saved his species.
-Then, the remaining humans have discovered the source of the hellish invasion: the Marine's own hometown. He gets back into the fight and exterminates the hellspawn from the town, and finds another entryway into hell.
-To close the portal, he must enter hell again to stop the invasion. After journeying through its twisted surface, the Marine manages to confront the Icon of Sin, a gigantic demon, and kills it. Its gruesome death causes devastation on Hell, and the portal to Earth has been sealed.</desc>
-		<image>~/.emulationstation/downloaded_images/pc/DOOM2.jpg</image>
+		<path>./Doom 2 - Hell on Earth.bat</path>
+		<name>Doom 2 - Hell on Earth</name>
+		<desc>
+			The player once again takes the role of the Marine, an unnamed hero, who, after being stranded on Phobos and subsequently fighting his way out of Deimos and Hell itself, returns back home to Earth - only to find that it too has fallen victim to an invasion from Hell.
+
+			With all the major cities in the world in ruins, the remaining leaders plan to use spacecrafts to transport the survivors of Earth's population. However, the starport is the only way for the ships to depart and the demons have protected it with a force field. All of humanity's remaining soldiers make a desperate assault on the starport, but eventually they are decimated and only the player remains.
+
+			The Marine manages to enter the infested starport, slay all the demons in his way and is able to shut down the force field. Humanity is able to escape, and he sits quietly waiting for death, knowing he saved his species.
+
+			Then, the remaining humans have discovered the source of the hellish invasion: the Marine's own hometown. He gets back into the fight and exterminates the hellspawn from the town, and finds another entryway into hell.
+
+			To close the portal, he must enter hell again to stop the invasion. After journeying through its twisted surface, the Marine manages to confront the Icon of Sin, a gigantic demon, and kills it. Its gruesome death causes devastation on Hell, and the portal to Earth has been sealed.
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/doom2.jpg</image>
 		<rating>0.8</rating>
 		<releasedate>19941010T000000</releasedate>
 		<developer>Id Software</developer>
@@ -43,44 +138,71 @@ To close the portal, he must enter hell again to stop the invasion. After journe
 		<genre>FPS, Action</genre>
 		<players>1-4</players>
 	</game>
-	<game>
-		<path>./Final Doom (1st Episode) TNT Evilution.bat</path>
-		<name>Final Doom (1st Episode): TNT Evilution</name>
-		<desc>In TNT: Evilution the UAC once again are intent on developing and experimenting with dimensional gateway technology. They set up a base on Io, one of the moons of Jupiter, with a solid detachment of space marines for protection. The marines do their job well: when the first experimental gateway is opened they annihilate the forces of Hell. Anything that came through the gateway was immediately destroyed by the marines, and so research on the gateways continued.
-Later, the yearly supply ship came earlier than expected, and looks strange and unusually large on the radar. The personnel of the base go out to behold the terrible truth: it is a spaceship from Hell, built of steel, stone, flesh, bone and corruption. The ship's enormous gates open to unleash a rain of demons on the base. Quickly, the whole base is overrun, and everyone is slain or zombified.
-The Doomguy, now in command of the marine deployment, has been away on a walk, and has thus escaped death or zombification. After being attacked by an imp he rushes back to the base, where he sees the demonic spaceship still hovering above it and realizes what has happened. Then he swears that he will seek vengeance for his slain troops, and sets out to kill as many evil creatures as possible.
-In the end, the marine defeats the Demon-Spitter, and the game describes Something rumbles in the distance. A blue light begins to glow inside the ruined skull of the Demon-Spitter.</desc>
-		<image>~/.emulationstation/downloaded_images/pc/FINALDOOM.jpg</image>
-		<rating>0.8</rating>
-		<releasedate>19960531T000000</releasedate>
-		<developer>Id Software</developer>
-		<publisher>Id Software</publisher>
-		<genre>FPS, Action</genre>
-		<players>1-4</players>
-	</game>
-	<game>
-		<path>./Final Doom (2nd Episode) Plutonia Experiment.bat</path>
-		<name>Final Doom (2nd Episode): Plutonia Experiment</name>
-		<desc>After Hell's catastrophic invasion of Earth, the global governments decide to take measures against any possible future invasion, knowing that the powers of Hell still remain strong. The UAC corporation is refounded under completely new management (the old trustees and stockholders are all dead in any case) and aims to develop tools that would prevent demonic invasions. It is said that the new UAC base is on one of Jupiter's moons, Io. UAC's scientists thought that this distance from Earth might prevent another catastrophic invasion, but as the events of TNT: Evilution showed, this was not the case. Something else would be needed.
-UAC's scientists start working on quantum accelerator devices intended to close interdimensional gates and stop possible invasions. The experiments are carried out in a secret research complex, with a stationed detachment of marines. The work seems to be going well, but...
-The creatures from Outside have their dire attention drawn towards the new research. A gate opens in the heart of the complex and unnatural horrors pour out. The quantum accelerator performs superbly - the gate is quickly closed and the invasion stopped. Research continues more boldly.
-On the next day, a ring of seven gates opens and an even greater invasion commences. For a single hour the quantum accelerators manage to close six of the seven gates... but the hellish army has become too numerous and too strong. The complex is overrun. Everyone present is slain, or zombified. The last gate of Hell remains open, manned and guarded by a demon Gatekeeper.
-The government, frantic that the quantum accelerator will be destroyed or used in some evil alien fashion against humanity, orders all marines to the site at once. Doomguy is the closest one to the site and gets there first. There he concludes that by the time reinforcements arrive that the demons will be too numerous and powerful.
-The marine decides to enter the complex and stop the Gatekeeper alone.</desc>
-		<image>~/.emulationstation/downloaded_images/pc/FINALDOOM.jpg</image>
-		<rating>0.8</rating>
-		<releasedate>19960531T000000</releasedate>
-		<developer>Id Software</developer>
-		<publisher>Id Software</publisher>
-		<genre>FPS, Action</genre>
-		<players>1-4</players>
-	</game>
-	<game>
-		<path>./Doom I Mod - Tech Gone Bad (John Romero) [E1M8].bat</path>
-		<name>Doom I Mod - Tech Gone Bad (John Romero) [E1M8]</name>
-		<desc>John Romero's version of E1M8 for Doom I.
 
-After exiting the Computer Station you knew the worst was up ahead. You still hadn't reached the place where the demons were coming from. The steel door shuts behind you as you realize you're there; you're at the Phobos Anomaly. Cracks from hell are all over the place as seepage from the portal invades the entire installation. Now it's time to find the portal and stop the demons from coming through. You know UAC had hundreds of scientists working at a high-tech lab somewhere in this area, and the portal must be connected to it somehow. Time to lock and load.
+	<game>
+		<path>./Final Doom (1st Episode) - TNT Evilution.bat</path>
+		<name>Final Doom (1st Episode) - TNT Evilution</name>
+		<desc>
+			In TNT: Evilution the UAC once again are intent on developing and experimenting with dimensional gateway technology. They set up a base on Io, one of the moons of Jupiter, with a solid detachment of space marines for protection. The marines do their job well: when the first experimental gateway is opened they annihilate the forces of Hell. Anything that came through the gateway was immediately destroyed by the marines, and so research on the gateways continued.
+
+			Later, the yearly supply ship came earlier than expected, and looks strange and unusually large on the radar. The personnel of the base go out to behold the terrible truth: it is a spaceship from Hell, built of steel, stone, flesh, bone and corruption. The ship's enormous gates open to unleash a rain of demons on the base. Quickly, the whole base is overrun, and everyone is slain or zombified.
+
+			The Doomguy, now in command of the marine deployment, has been away on a walk, and has thus escaped death or zombification. After being attacked by an imp he rushes back to the base, where he sees the demonic spaceship still hovering above it and realizes what has happened. Then he swears that he will seek vengeance for his slain troops, and sets out to kill as many evil creatures as possible.
+
+			In the end, the marine defeats the Demon-Spitter, and the game describes Something rumbles in the distance. A blue light begins to glow inside the ruined skull of the Demon-Spitter.
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/finaldoom.jpg</image>
+		<rating>0.8</rating>
+		<releasedate>19960531T000000</releasedate>
+		<developer>Id Software</developer>
+		<publisher>Id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1-4</players>
+	</game>
+
+	<game>
+		<path>./Final Doom (2nd Episode) - Plutonia Experiment.bat</path>
+		<name>Final Doom (2nd Episode) - Plutonia Experiment</name>
+		<desc>
+			After Hell's catastrophic invasion of Earth, the global governments decide to take measures against any possible future invasion, knowing that the powers of Hell still remain strong. The UAC corporation is refounded under completely new management (the old trustees and stockholders are all dead in any case) and aims to develop tools that would prevent demonic invasions. It is said that the new UAC base is on one of Jupiter's moons, Io. UAC's scientists thought that this distance from Earth might prevent another catastrophic invasion, but as the events of TNT: Evilution showed, this was not the case. Something else would be needed.
+			UAC's scientists start working on quantum accelerator devices intended to close interdimensional gates and stop possible invasions. The experiments are carried out in a secret research complex, with a stationed detachment of marines. The work seems to be going well, but...
+
+			The creatures from Outside have their dire attention drawn towards the new research. A gate opens in the heart of the complex and unnatural horrors pour out. The quantum accelerator performs superbly - the gate is quickly closed and the invasion stopped. Research continues more boldly.
+
+			On the next day, a ring of seven gates opens and an even greater invasion commences. For a single hour the quantum accelerators manage to close six of the seven gates... but the hellish army has become too numerous and too strong. The complex is overrun. Everyone present is slain, or zombified. The last gate of Hell remains open, manned and guarded by a demon Gatekeeper.
+			The government, frantic that the quantum accelerator will be destroyed or used in some evil alien fashion against humanity, orders all marines to the site at once. Doomguy is the closest one to the site and gets there first. There he concludes that by the time reinforcements arrive that the demons will be too numerous and powerful.
+			The marine decides to enter the complex and stop the Gatekeeper alone.
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/finaldoom.jpg</image>
+		<rating>0.8</rating>
+		<releasedate>19960531T000000</releasedate>
+		<developer>Id Software</developer>
+		<publisher>Id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1-4</players>
+	</game>
+
+	<game>
+		<path>./MD1 - Sewers (Xbox Level) [E3M1].bat</path>
+		<name>MD1 - Sewers (Xbox Level) [E3M1]</name>
+		<desc>
+			“Sewers” for Ultimate Doom, and “Betray” for Doom II are exclusives Xbox levels released as a bonus for Doom 3 Limited Collector's Edition (first appearance) and then again on Doom 3 Resurrection of Evil. Both levels are secret which means that a secret exit is needed to access them, the secret exit to “Sewers” is located at E1M1 while the secret exit to “Betray” is located at MAP02. Levels are technically known as SEWERS.WAD and BETRAY.WAD. A bug-fixed PC versions for these levels can be found at http://www.classicdoom.com/xboxspec.htm
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/sewers.png</image>
+		<rating>0.8</rating>
+		<releasedate>20050403T000000</releasedate>
+		<developer>Vicarious Visions</developer>
+		<publisher>Activision</publisher>
+		<genre>FPS, Action</genre>
+		<players>1-4</players>
+	</game>
+
+	<game>
+		<path>./MD1 - Tech Gone Bad (John Romero) [E1M8].bat</path>
+		<name>MD1 - Tech Gone Bad (John Romero) [E1M8]</name>
+		<desc>
+			John Romero's version of E1M8 for Doom I.
+			After exiting the Computer Station you knew the worst was up ahead. You still hadn't reached the place where the demons were coming from. The steel door shuts behind you as you realize you're there; you're at the Phobos Anomaly. Cracks from hell are all over the place as seepage from the portal invades the entire installation. Now it's time to find the portal and stop the demons from coming through. You know UAC had hundreds of scientists working at a high-tech lab somewhere in this area, and the portal must be connected to it somehow. Time to lock and load.
 		</desc>
 		<image>~/.emulationstation/downloaded_images/pc/E1M8.png</image>
 		<rating></rating>
@@ -90,4 +212,60 @@ After exiting the Computer Station you knew the worst was up ahead. You still ha
 		<genre>FPS, Action</genre>
 		<players>1-4</players>
 	</game>
+
+	<game>
+		<path>./MD1 - The Lost Episode (5th Episode) [E5M1 to E5M9].bat</path>
+		<name>MD1 - The Lost Episode (5th Episode) [E5M1 to E5M9]</name>
+		<desc>
+			A semi-official 5th episode for The Ultimate Doom.
+
+			This project's aim is to bring the official and relatively obscure console-exclusive maps together in a single playable episode. Maps consist of levels from PSXDoom, Jaguar Doom, and the Doom Alphas, re-mastered in a surreal yet fitting "neo-classic" style.
+
+			Great effort has been made to preserve the flow of the existing playable maps (PSX maps mostly), though a few in particular are heavily modified for purposes of gameplay or aesthetics. The Alpha maps in particular have changed drastically, but only for the purpose of "completing" what was originally an unfinished map. There is also one mostly-original map, though it does bear some striking similarities to Spawning Vats.
+
+			Though many oldschool doomers may not view earlier renditions of these maps (i.e. Kaiser's excellent Consoledoom.wad) as "canon" in the Doom universe, this project is designed specifically to preserve the look and feel of these maps in a format that will sit side-by-side with the original four iD episodes. We hope you will view this project as not just an add-on episode, but the fifth chapter in the Ultimate Doom universe.
+
+			Prepare for Evil Unleashed.
+
+			Download this episode at https://www.doomworld.com/idgames/levels/doom/Ports/j-l/lostepis
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/lostepis.png</image>
+		<rating>0.8</rating>
+		<releasedate>20090115T000000</releasedate>
+		<developer>Id Software</developer>
+		<publisher>Id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1-4</players>
+	</game>
+
+	<game>
+		<path>./MD2 - Betray (Xbox Level) [MAP01].bat</path>
+		<name>MD2 - Betray (Xbox Level) [MAP01]</name>
+		<desc>
+			“Sewers” for Ultimate Doom, and “Betray” for Doom II are exclusives Xbox levels released as a bonus for Doom 3 Limited Collector's Edition (first appearance) and then again on Doom 3 Resurrection of Evil. Both levels are secret which means that a secret exit is needed to access them, the secret exit to “Sewers” is located at E1M1 while the secret exit to “Betray” is located at MAP02. Levels are technically known as SEWERS.WAD and BETRAY.WAD. A bug-fixed PC versions for these levels can be found at http://www.classicdoom.com/xboxspec.htm
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/betray.png</image>
+		<rating>0.8</rating>
+		<releasedate>20050403T000000</releasedate>
+		<developer>Vicarious Visions</developer>
+		<publisher>Activision</publisher>
+		<genre>FPS, Action</genre>
+		<players>1-4</players>
+	</game>
+
+	<game>
+		<path>./MD2 - No Rest for the Living (XBLA 2nd Episode) [LEVEL01 to LEVEL09].bat</path>
+		<name>MD2 - No Rest for the Living (XBLA 2nd Episode) [LEVEL01 to LEVEL09]</name>
+		<desc>
+			After grouping the original 32 levels of Doom II in an episode called “Hell on Earth”, “No Rest for the Living” adds a second episode which was released as a bonus for Doom II on Xbox Live Arcade for the Xbox 360 (first appearance), later on Doom 3 BFG Edition and Doom Classic Collection. This episode contains 9 levels (1 is secret).
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/nerve.png</image>
+		<rating>0.8</rating>
+		<releasedate>20100526T000000</releasedate>
+		<developer>Nerve Software</developer>
+		<publisher>Activision (original publisher), Bethesda Softworks (starting on October 31, 2012)</publisher>
+		<genre>FPS, Action</genre>
+		<players>1-4</players>
+	</game>
+
 </gameList>

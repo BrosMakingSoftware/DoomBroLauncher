@@ -13,4 +13,3 @@ REM We are calling Doom Ultimate as our main game with e1m8b mod and start autom
 REM Besides Doom Ultimate, it can be run using Doom 1 Shareware
 REM More info here: https://twitter.com/romero/status/688054778790834176
 %PORT_EXECUTABLE% %PORT_PARAMETERS% -iwad wads\DOOMU.WAD -file wads\e1m8b.wad +map E1M8 %SKILL_DEFAULT%
-pause
