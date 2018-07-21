@@ -12,21 +12,23 @@ Our goal is to propose an organized way to execute Doom Classic games using GZDo
 First release is focused for Windows systems, a Linux version is planned for the future.
 
 ## Motivation
-The original idea came when a friend asked me for a good source port to run his old Doom games, he doesn't have technical experience so he needed something easy to execute, so I created the early version of this launcher for him, which uses GZDoom, the source port that worked the best for our needs.
-So I ended up with a set of batch scripts and folders in certain order so they can be portable and easy to execute Doom games. Each Doom game will be represented by their own batch script created based on a template, so the user just need to double click the batch of the game to launch it. Since GZDoom puts in its root folder the saves, configurations and screenshots to be portable, it represents a problem for a person that cannot recognize the files, and when a new update of GZDoom is released, when trying to doing the update it would be easy to override configs or loose the saves. So to reduce that risk there are different folders: A folder for configurations, a folder for saves, a folder for screenshots and a folder for port binaries. The batch scripts knows where are these folders and using special [command line parameters](https://zdoom.org/wiki/Command_line_parameters) they tell GZDoom how to use them. In the case where you need to update GZDoom binaries, you just need to delete the `DoomBroLauncher/port` folder's contents and unzip the new ones there.
+The original idea came when a friend asked me for a good source port to run his old Doom games, he needed something easy to execute, so I created this launcher for him using scripts to call GZDoom, a source port that provides a very good compatibility with games and mods and can enhance the graphics without compromising the original look and feel experience.
 
-I've been working with [Kodi and EmulationStation](https://github.com/BrosMakingSoftware/Kodi-Launches-EmulationStation-Addon) configuring my own HTPC Windows machine and I noticed that the batch-scripts approach of having one script for each game fits very nice with the way how EmulationStation lists and executes roms. Originally to execute Doom games from EmulationStation you need to configure it to filter wads and build an execution line where you call the source port with the wad as parameter, the confusion starts when the wad you want to run is actually a mod (PWAD) so you need a way to define its respective IWAD, which means definitely another way to run the games, so relying this responsibility to batch scripts is the most portable and easy to maintain idea. This is similar to the solution provided for [Retropie](https://github.com/retropie/retropie-setup/wiki/Doom) but less complex. Also since this works with EmulationStation, it was a good idea to preconfigure a settings file to work with XInput devices, in other words the Xbox controllers, so we can navigate in Kodi and EmulationStation and play Doom games with a controller from the couch.
+So I ended up with a set of batch scripts and folders in certain order so they can be portable and easy to execute. Each Doom game will be represented by their own batch script created based on a template, so the user just need to double click the batch of the game to launch it. Since GZDoom puts the saves, configurations and screenshots files on its root folder (in order to be portable), it can be a problem for people that cannot recognize these files when they try to update the GZDoom software, they can override configurations or delete saves if they are not careful. So to reduce that risk there are different folders: A folder for configurations, a folder for saves, a folder for screenshots and a folder for port binaries. The batch scripts knows the location of these folders thanks to some special [command line parameters](https://zdoom.org/wiki/Command_line_parameters). So, if you want to update GZDoom binaries, you just need to delete the contents of the `DoomBroLauncher/port` folder, and the and unzip the new ones on it.
+
+I've been working with [Kodi and EmulationStation](https://github.com/BrosMakingSoftware/Kodi-Launches-EmulationStation-Addon) configuring my own HTPC Windows machine and I noticed that the batch-scripts approach of having one script for each game fits very nice with the way how EmulationStation lists and executes roms. Originally to execute Doom games from EmulationStation you need to configure it to filter wads and build an execution line where you call the source port with the wad as parameter, the confusion starts when the wad you want to run is actually a mod (PWAD) so you need a way to define its respective IWAD, which means definitely another way to run the games, so relying this responsibility to batch scripts is the most portable and easy to maintain idea. This is similar to the solution provided for [Retropie](https://github.com/retropie/retropie-setup/wiki/Doom) but less complex. Also since this works with EmulationStation, it was a good idea to preconfigure a settings file to work with XInput devices (Xbox controllers), so we can navigate in Kodi and EmulationStation and play Doom games with a controller from the couch.
 
 This launcher was tested with Windows 10 and gzdoom version 2.3.2.
 
 ## What makes this launcher different than others of the same kind?
 - Completely open source, hosted on [GitHub](https://github.com/BrosMakingSoftware/DoomBroLauncher) and published under GPL v3 license
-- A preconfigured settings file is provided to work with Xbox controllers using an intuitive layout and a display resolution of 1920x1080 (Full HD), also including some tweaks on the map display (all of them detailed below in this documentation)
-- Each Doom game is called by individual batch scripts that have a descriptive name and don't need to enter prompts, just call the scripts by double clicking them or calling from command line
+- A preconfigured settings file is provided which enables Xbox controllers with an [intuitive layout](https://github.com/BrosMakingSoftware/DoomBroLauncher#xbox-360-and-xbox-one-key-bindings) and a display resolution of 1920x1080 (Full HD) in full screen, also including some tweaks on the [map display](https://github.com/BrosMakingSoftware/DoomBroLauncher#game-settings) (all of them detailed below in this documentation)
+- The usage of Xbox controllers is optional, the game can still be played with keyboard and mouse
+- Each Doom game is called by individual batch scripts that have a descriptive name and you don't need to enter additional prompts, just run the scripts by double clicking them or calling them from a command line
 - Batch scripts are the native and fastest way to start a program and they are easy to maintain. Other launchers use another scripting languages which means you need an external runtime that not all users may have installed, or they use compiled executables which are harder to edit than a simple `.bat` file. At the end this is just a launcher, let's keep it simple
-- New batch scripts with more Doom games or mods are easy to add. They reuse common variables defined in a single file which means that any change is reflected on all scripts (for example addition of new parameters)
+- New batch scripts with more Doom games or mods are [easy to add](https://github.com/BrosMakingSoftware/DoomBroLauncher#create-more-batch-scripts-to-run-new-doom-games-or-mods). They reuse common variables defined in a single file which means that any change is reflected on all scripts (for example addition of new parameters)
 - Only open source code or programs are used by this project, including the source-port
-- Easy to integrate with EmulationStation
+- Easy to integrate with EmulationStation: Boxarts, metadata and [documentation](https://github.com/BrosMakingSoftware/DoomBroLauncher#integration-with-emulationstation) is provided below
 
 
 ## Usage
@@ -49,14 +51,68 @@ This release of the launcher is focused for Windows. You must know if your Windo
    To download the launcher files, go to https://github.com/BrosMakingSoftware/DoomBroLauncher/releases and download the latest zip file available.
 
 2. Unzip the launcher:   
-   Unzip the DoomBroLauncher zip to a folder on your system. You would see that the contents of this zip includes a folder called `Doom`, remember where this folder is since you will use it later. Inside this folder you will find a folder called `DoomBroLauncher` and a set of batch-scripts
+   Unzip the DoomBroLauncher zip to a folder on your system. You would see that the contents of this zip includes a folder called `Doom`, remember where this folder is since you will use it later. Inside this folder you will find a folder called `DoomBroLauncher` and a set of batch-scripts as in the following image:
 
-3. Download GZDoom:
-   To download GZDoom, go to https://gzdoom.drdteam.org/page.php?page=download and select the version that matches your Windows system (32 bits or 64 bits), this is important since the program will not start on the wrong system version.
-   Open the zip file and copy its contents to `Doom/DoomBroLauncher/port` folder
+   ![zip_content.png](/Resources/images/zip_content.png)
 
-4. Now it's time to copy your Doom games:
-   Find your `.wad` files from your copies of Doom (depending of your game, it can be in one place or another), and copy them to the `Doom/DoomBroLauncher/wads` folder. If you have a version of [WadSmoosh](https://forum.zdoom.org/viewtopic.php?f=19&t=52757)'s `doom_complete.pk3`, you can put it on the same folder too. This pack is actually highly recommended to enjoy all the id Software releases at once
+3. Download GZDoom:    
+   To download GZDoom, go to https://zdoom.org/downloads and select the version that matches your Windows system (32 bits or 64 bits), this is important since the program will not start on the wrong system version.
+   Open the zip file and copy its contents to the `Doom/DoomBroLauncher/port` folder
+
+4. Now it's time to copy your Doom games:    
+   Find your `.wad` files from your copies of Doom (depending of your game, it can be in one place or another), and copy them to the `Doom/DoomBroLauncher/wads` folder. If you have a version of [WadSmoosh](https://forum.zdoom.org/viewtopic.php?f=19&t=52757)'s `doom_complete.pk3`, you can put it on the same folder too. This pack is actually highly recommended to enjoy all the id Software releases at once including the Master Levels.
+
+   The existing scripts will expect the following `.wad` names:
+   <table style="width:100%">
+    <tr>
+      <th>Game / Mod</th>
+      <th>`.wad` name</th>
+    </tr>
+    <tr>
+      <td>Doom Complete (WadSmoosh pack)</td>
+      <td>doom_complete.pk3</td>
+    </tr>
+    <tr>
+      <td>Doom 1 - Shareware</td>
+      <td>DOOM1.WAD</td>
+    </tr>
+    <tr>
+      <td>Doom 1 - The Ultimate Doom</td>
+      <td>DOOMU.WAD</td>
+    </tr>
+    <tr>
+      <td>Doom 2 - Hell on Earth</td>
+      <td>DOOM2.WAD</td>
+    </tr>
+    <tr>
+      <td>Final Doom (1st Episode) - TNT Evilution</td>
+      <td>TNT.WAD</td>
+    </tr>
+    <tr>
+      <td>Final Doom (2nd Episode) - Plutonia Experiment</td>
+      <td>PLUTONIA.WAD</td>
+    </tr>
+    <tr>
+      <td>Mod for Doom 1 - Sewers (Xbox Level) [E3M1]</td>
+      <td>SEWERS.WAD</td>
+    </tr>
+    <tr>
+      <td>Mod for Doom 1 - Tech Gone Bad (John Romero) [E1M8]</td>
+      <td>e1m8b.wad</td>
+    </tr>
+    <tr>
+      <td>Mod for Doom 1 - The Lost Episode (5th Episode) [E5M1 to E5M9]</td>
+      <td>lostepis.wad</td>
+    </tr>
+    <tr>
+      <td>Mod for Doom 2 - Betray (Xbox Level) [MAP01]</td>
+      <td>BETRAY.WAD</td>
+    </tr>
+    <tr>
+      <td>Mod for Doom 2 - No Rest for the Living (XBLA 2nd Episode) [LEVEL01 to LEVEL09]</td>
+      <td>NERVE.WAD</td>
+    </tr>
+  </table>
 
 5. You are ready to go to the `Doom` folder to select and start the scripts that correspond to the games you copied from the previous step.
 
@@ -80,7 +136,7 @@ Joystick usage is enabled for DirectInput, XInput and Raw-PlayStation-2-Adapter 
 The property used was `use_joystick=true`.
 This will enable the already mentioned Input controllers and loads the default settings for XInputs, in this case joysticks and triggers moves and their deadzones.
 
-#### Preconfigured controls bindings for XInput devices (Xbox 360 or Xbox One controller)
+#### Preconfigured controls bindings for XInput devices (Xbox 360 or Xbox One controllers)
 
 **START** button on controller now brings the _Main Menu_ (the same menu displayed using **ESC** key on keyboard).
 This binding for some reason is not visible at all on the _Customize Controls_ menu, so it needed to be written on the properties file directly.
