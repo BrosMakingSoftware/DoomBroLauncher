@@ -14,11 +14,11 @@ I've been working with [Kodi and EmulationStation](https://github.com/BrosMaking
 
 ## What makes this launcher different than others of the same kind?
 - Completely open source, hosted on [GitHub](https://github.com/BrosMakingSoftware/DoomBroLauncher) and published under GPL v3 license
-- A preconfigured settings file is provided which enables Xbox controllers with an [intuitive layout](# xbox-360-and-xbox-one-key-bindings) and a display resolution of 1920x1080 (Full HD) in full screen, also including some tweaks on the [map display](XXX) (all of them detailed below in this documentation)
+- A preconfigured settings file is provided which enables Xbox controllers with an [intuitive layout](https://github.com/BrosMakingSoftware/DoomBroLauncher#xbox-360-and-xbox-one-key-bindings) and a display resolution of 1920x1080 (Full HD) in full screen, also including some tweaks on the [map display](https://github.com/BrosMakingSoftware/DoomBroLauncher#game-settings) (all of them detailed below in this documentation)
 - The usage of Xbox controllers is optional, the game can still be played with keyboard and mouse
 - Each Doom game is called by individual batch scripts that have a descriptive name and you don't need to enter additional prompts, just run the scripts by double clicking them or calling them from a command line
 - Batch scripts are the native and fastest way to start a program and they are easy to maintain. Other launchers use another scripting languages which means you need an external runtime that not all users may have installed, or they use compiled executables which are harder to edit than a simple `.bat` file. At the end this is just a launcher, let's keep it simple
-- New batch scripts with more Doom games or mods are [easy to add](XXX). They reuse common variables defined in a single file which means that any change is reflected on all scripts (for example addition of new parameters)
+- New batch scripts with more Doom games or mods are [easy to add](https://github.com/BrosMakingSoftware/DoomBroLauncher#create-more-batch-scripts-to-run-new-doom-games-or-mods). They reuse common variables defined in a single file which means that any change is reflected on all scripts (for example addition of new parameters)
 - Only open source code or programs are used by this project, including the source-port
 - Easy to integrate with EmulationStation: Boxarts, metadata and [documentation](https://github.com/BrosMakingSoftware/DoomBroLauncher#integration-with-emulationstation) is provided below
 
