@@ -1,4 +1,4 @@
-# Game formats (we don't want to distribute this with games)
+# Game formats (we don't want to distribute this launcher with games)
 *.wad
 *.WAD
 *.pk3
@@ -6,11 +6,19 @@
 *.zip
 *.ZIP
 
-# Ignore personal gaming data
-Doom/DoomBroLauncher/saves/*.zds
-Doom/DoomBroLauncher/screenshots/*.png
+# Personal game saves (mostly *.zds files)
+Doom/.DoomBroLauncher/saves/*
+!Doom/.DoomBroLauncher/saves/readme-saves.txt
 
-# Binaries
+# Personal game screenshots (mostly *.png files)
+Doom/.DoomBroLauncher/screenshots/*
+!Doom/.DoomBroLauncher/screenshots/readme-screenshots.txt
+
+# Port binaries and its files
+Doom/.DoomBroLauncher/port/*
+!Doom/.DoomBroLauncher/port/readme-gzdoom.txt
+
+# Binaries in general
 *.so
 *.dll
 *.pyo
