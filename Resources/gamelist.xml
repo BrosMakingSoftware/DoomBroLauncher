@@ -3,7 +3,7 @@
 
 	<!-- Multilines on EmulationStation are tricky, so to avoid unexpected characters on the display, the "desc" tag contents are written without indentation -->
 
-	<game>
+	<game id="wadsmoosh" source="DoomBroLauncher">
 		<path>./All Official Dooms (WadSmoosh's Doom Complete).bat</path>
 		<name>All Official Dooms (WadSmoosh's Doom Complete)</name>
 		<desc>
@@ -71,7 +71,7 @@ Release date: June 17, 1996
 Developed by: TeamTNT, Casali brothers
 Published by: id Software]]>
 		</desc>
-		<image>~/.emulationstation/downloaded_images/pc/complete.png</image>
+		<image>~/.emulationstation/downloaded_images/pc/wadsmoosh.jpg</image>
 		<rating>1</rating>
 		<releasedate>20160705T000000</releasedate>
 		<developer>Id Software</developer>
@@ -80,7 +80,7 @@ Published by: id Software]]>
 		<players>1</players>
 	</game>
 
-	<game>
+	<game id="doom_shareware" source="DoomBroLauncher">
 		<path>./Doom 1 - Shareware.bat</path>
 		<name>Doom 1 - Shareware</name>
 		<desc>
@@ -97,7 +97,7 @@ Download a shareware version at https://doomworld.com/pageofdoom/shareware.html]
 		<players>1</players>
 	</game>
 
-	<game>
+	<game id="doom_ultimate" source="DoomBroLauncher">
 		<path>./Doom 1 - The Ultimate Doom.bat</path>
 		<name>Doom 1 - The Ultimate Doom</name>
 		<desc>
@@ -109,7 +109,7 @@ Suddenly, something goes wrong and creatures from hell swarm out of the teleport
 
 A military detachment from Mars travels to Phobos to investigate the incident. The player is tasked with securing the perimeter, as the assault team and their heavy weapons are brought inside. Radio contact soon ceases and the player realizes that he is the only survivor. Being unable to pilot the shuttle off of Phobos by himself, the only way to escape is to go inside and fight through the complexes of the moon base.]]>
 		</desc>
-		<image>~/.emulationstation/downloaded_images/pc/doomu.jpg</image>
+		<image>~/.emulationstation/downloaded_images/pc/doom1_u.jpg</image>
 		<rating>0.93</rating>
 		<releasedate>19950430T000000</releasedate>
 		<developer>Id Software</developer>
@@ -118,7 +118,7 @@ A military detachment from Mars travels to Phobos to investigate the incident. T
 		<players>1</players>
 	</game>
 
-	<game>
+	<game id="doom2" source="DoomBroLauncher">
 		<path>./Doom 2 - Hell on Earth.bat</path>
 		<name>Doom 2 - Hell on Earth</name>
 		<desc>
@@ -141,7 +141,7 @@ To close the portal, he must enter hell again to stop the invasion. After journe
 		<players>1</players>
 	</game>
 
-	<game>
+	<game id="final_doom_tnt" source="DoomBroLauncher">
 		<path>./Final Doom (1st Episode) - TNT Evilution.bat</path>
 		<name>Final Doom (1st Episode) - TNT Evilution</name>
 		<desc>
@@ -162,7 +162,7 @@ In the end, the marine defeats the Demon-Spitter, and the game describes Somethi
 		<players>1</players>
 	</game>
 
-	<game>
+	<game id="final_doom_plutonia" source="DoomBroLauncher">
 		<path>./Final Doom (2nd Episode) - Plutonia Experiment.bat</path>
 		<name>Final Doom (2nd Episode) - Plutonia Experiment</name>
 		<desc>
@@ -186,7 +186,7 @@ The marine decides to enter the complex and stop the Gatekeeper alone.]]>
 		<players>1</players>
 	</game>
 
-	<game>
+	<game id="doom1_mod_jr_phobos_mission_control" source="DoomBroLauncher">
 		<path>./MD1 - Phobos Mission Control (John Romero) [E1M4].bat</path>
 		<name>MD1 - Phobos Mission Control (John Romero) [E1M4]</name>
 		<desc>
@@ -194,7 +194,7 @@ The marine decides to enter the complex and stop the Gatekeeper alone.]]>
 
 With the Toxin Refinery in the rear-view, you make your way to Phobos Mission Control where the computers crunching the data from the Phobos Anomaly are located. You need to use them to gain access to the Phobos Lab, but remember hearing that the computers were tied into all areas of the installation and that you never knew when the environment around you would change. You need to keep your eyes alert to all movement - this place is not what it seems...]]>
 		</desc>
-		<image>~/.emulationstation/downloaded_images/pc/phobos_mission_control.png</image>
+		<image>~/.emulationstation/downloaded_images/pc/phobos_mission_control.jpg</image>
 		<rating>0.8</rating>
 		<releasedate>20160426T000000</releasedate>
 		<developer>John Romero</developer>
@@ -203,13 +203,13 @@ With the Toxin Refinery in the rear-view, you make your way to Phobos Mission Co
 		<players>1</players>
 	</game>
 
-	<game>
+	<game id="doom1_mod_sewers" source="DoomBroLauncher">
 		<path>./MD1 - Sewers (Xbox Level) [E3M1].bat</path>
 		<name>MD1 - Sewers (Xbox Level) [E3M1]</name>
 		<desc>
 <![CDATA["Sewers" for Ultimate Doom, and "Betray" for Doom II are exclusives Xbox levels released as a bonus for Doom 3 Limited Collector's Edition (first appearance) and then again on Doom 3 Resurrection of Evil. Both levels are secret which means that a secret exit is needed to access them, the secret exit to "Sewers" is located at E1M1 while the secret exit to "Betray" is located at MAP02. Levels are technically known as SEWERS.WAD and BETRAY.WAD. A bug-fixed PC versions for these levels can be found at http://www.classicdoom.com/xboxspec.htm]]>
 		</desc>
-		<image>~/.emulationstation/downloaded_images/pc/sewers.png</image>
+		<image>~/.emulationstation/downloaded_images/pc/sewers.jpg</image>
 		<rating>0.7</rating>
 		<releasedate>20050403T000000</releasedate>
 		<developer>Vicarious Visions</developer>
@@ -218,7 +218,7 @@ With the Toxin Refinery in the rear-view, you make your way to Phobos Mission Co
 		<players>1</players>
 	</game>
 
-	<game>
+	<game id="doom1_mod_jr_tech_gone_bad" source="DoomBroLauncher">
 		<path>./MD1 - Tech Gone Bad (John Romero) [E1M8].bat</path>
 		<name>MD1 - Tech Gone Bad (John Romero) [E1M8]</name>
 		<desc>
@@ -226,7 +226,7 @@ With the Toxin Refinery in the rear-view, you make your way to Phobos Mission Co
 
 After exiting the Computer Station you knew the worst was up ahead. You still hadn't reached the place where the demons were coming from. The steel door shuts behind you as you realize you're there; you're at the Phobos Anomaly. Cracks from hell are all over the place as seepage from the portal invades the entire installation. Now it's time to find the portal and stop the demons from coming through. You know UAC had hundreds of scientists working at a high-tech lab somewhere in this area, and the portal must be connected to it somehow. Time to lock and load.]]>
 		</desc>
-		<image>~/.emulationstation/downloaded_images/pc/tech_gone_bad.png</image>
+		<image>~/.emulationstation/downloaded_images/pc/tech_gone_bad.jpg</image>
 		<rating>0.9</rating>
 		<releasedate>20160115T000000</releasedate>
 		<developer>John Romero</developer>
@@ -235,7 +235,7 @@ After exiting the Computer Station you knew the worst was up ahead. You still ha
 		<players>1</players>
 	</game>
 
-	<game>
+	<game id="doom1_mod_lostepis" source="DoomBroLauncher">
 		<path>./MD1 - The Lost Episode (5th Episode) [E5M1 to E5M9].bat</path>
 		<name>MD1 - The Lost Episode (5th Episode) [E5M1 to E5M9]</name>
 		<desc>
@@ -251,7 +251,7 @@ Prepare for Evil Unleashed.
 
 Download this episode at https://www.doomworld.com/idgames/levels/doom/Ports/j-l/lostepis]]>
 		</desc>
-		<image>~/.emulationstation/downloaded_images/pc/lostepis.png</image>
+		<image>~/.emulationstation/downloaded_images/pc/lostepis.jpg</image>
 		<rating>0.6</rating>
 		<releasedate>20090115T000000</releasedate>
 		<developer>Id Software</developer>
@@ -260,13 +260,13 @@ Download this episode at https://www.doomworld.com/idgames/levels/doom/Ports/j-l
 		<players>1</players>
 	</game>
 
-	<game>
+	<game id="doom2_mod_betray" source="DoomBroLauncher">
 		<path>./MD2 - Betray (Xbox Level) [MAP01].bat</path>
 		<name>MD2 - Betray (Xbox Level) [MAP01]</name>
 		<desc>
 <![CDATA["Sewers" for Ultimate Doom, and "Betray" for Doom II are exclusives Xbox levels released as a bonus for Doom 3 Limited Collector's Edition (first appearance) and then again on Doom 3 Resurrection of Evil. Both levels are secret which means that a secret exit is needed to access them, the secret exit to "Sewers" is located at E1M1 while the secret exit to "Betray" is located at MAP02. Levels are technically known as SEWERS.WAD and BETRAY.WAD. A bug-fixed PC versions for these levels can be found at http://www.classicdoom.com/xboxspec.htm]]>
 		</desc>
-		<image>~/.emulationstation/downloaded_images/pc/betray.png</image>
+		<image>~/.emulationstation/downloaded_images/pc/betray.jpg</image>
 		<rating>0.7</rating>
 		<releasedate>20050403T000000</releasedate>
 		<developer>Vicarious Visions</developer>
@@ -275,13 +275,13 @@ Download this episode at https://www.doomworld.com/idgames/levels/doom/Ports/j-l
 		<players>1</players>
 	</game>
 
-	<game>
+	<game id="doom2_mod_nerve" source="DoomBroLauncher">
 		<path>./MD2 - No Rest for the Living (XBLA 2nd Episode) [LEVEL01 to LEVEL09].bat</path>
 		<name>MD2 - No Rest for the Living (XBLA 2nd Episode) [LEVEL01 to LEVEL09]</name>
 		<desc>
 <![CDATA[After grouping the original 32 levels of Doom II in an episode called "Hell on Earth", "No Rest for the Living" adds a second episode which was released as a bonus for Doom II on Xbox Live Arcade for the Xbox 360 (first appearance), later on Doom 3 BFG Edition and Doom Classic Collection. This episode contains 9 levels (1 is secret).]]>
 		</desc>
-		<image>~/.emulationstation/downloaded_images/pc/nerve.png</image>
+		<image>~/.emulationstation/downloaded_images/pc/nerve.jpg</image>
 		<rating>0.9</rating>
 		<releasedate>20100526T000000</releasedate>
 		<developer>Nerve Software</developer>
@@ -289,5 +289,437 @@ Download this episode at https://www.doomworld.com/idgames/levels/doom/Ports/j-l
 		<genre>FPS, Action</genre>
 		<players>1</players>
 	</game>
+
+
+	<!-- Master Levels for Doom II -->
+
+	<game id="master_levels_main_folder" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II</path>
+		<name>Master Levels for Doom II</name>
+		<desc>
+<![CDATA[Introducing the Master Levels for DOOM II. Twenty never-before-seen levels all with the same acid drenched, hell spawned horror of the originals. Each was created by independent designers and supervised by the demented minds of id Software. You might as well forget about seeing the light of day ever again.
+
+Must have full version of DOOM II to operate.]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels.jpg</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>id Software</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_alphabetical_folder" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order</path>
+		<name>Alphabetical Order</name>
+		<desc>
+<![CDATA[Original PC release displayed the levels in alphabetical order based on WADs names.]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>id Software</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_psn_folder" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/PSN Release Order</path>
+		<name>PSN Release Order</name>
+		<desc>
+<![CDATA["Doom Classic Complete" was released on the PlayStation Network including the "Master Levels for Doom II" with a new level order.]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/doom_classic_complete_psn.jfif</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>id Software</developer>
+		<publisher>Bethesda Softworks</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+
+
+	<!-- Every Master Level -->
+
+	<game id="master_levels_attack" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/Level 01 - Attack.bat</path>
+		<name>Level 01 - Attack</name>
+		<desc>
+<![CDATA[No description provided by author.]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/attack.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>Tim Willits</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_blacktwr" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/Level 02 - Black Tower.bat</path>
+		<name>Level 02 - Black Tower</name>
+		<desc>
+<![CDATA[This and the other of my wads were to be released inside a 32-level "episode" on the internet. But having id release them is about 666 times cooler.
+The plot in the intended episode was as follows:
+You once were the biggest and baddest Cyber-demon to rule hell and you spear-headed the council that governed the underworld; "the Cabal". Betrayed by the other members you find yourself not only dismantled, but also a victim of the utmost demonic humiliation:
+You've been morphed into a human! Of course you're out for revenge and have to kick the other members of the Cabal's butts one by one.
+
+In "Black Tower" you're nearing the end of your journey. You and Chagrin, the ruler of the Black Tower, came off the same conveyor belt as newly assembled cyber-demons a few thousand years back.
+"Oil runs thicker than blood" the two of you used to say. Demons don't come much closer to friendship than what you and Chagrin shared. Well now your buddy rules the hordes of hell previously under your command and have left you for dead. Your task is simple: Enter the dreaded Black Tower, the nucleus of black magic and the occult in all of Hell, get to its highest floor and slay Chagrin. Then there is the getting back out as well...]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/blacktwr.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>Sverre Andre Kvernmo (aka "Cranium")</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_bloodsea" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/Level 03 - Bloodsea Keep.bat</path>
+		<name>Level 03 - Bloodsea Keep</name>
+		<desc>
+<![CDATA[This and the other of my wads were to be released inside a 32-level "episode" on the internet. But having id release them is about 666 times cooler.
+The plot in the intended episode was as follows:
+You once were the biggest and baddest Cyber-demon to rule hell and you spear-headed the council that governed the underworld; "the Cabal". Betrayed by the other members you find yourself not only dismantled, but also a victim of the utmost demonic humiliation:
+You've been morphed into a human! Of course you're out for revenge and have to kick the other members of the Cabal's butts one by one.
+
+"Bloodsea Keep" is the home of your past advisor;
+Veavitdpoh (Very Evil Arch-Vile In The Deepest Parts Of Hell). Veavitdpoh is an old-school demon that believes in the rip-out-heart-routine and so shuns all use of technology and mechanical weaponry. His cult following has grown the last century but still amounts to little. Unless you face them alone of course...
+
+After being dumped into the endless "Sea of Blood" following your humiliating transformation into a human you swim for an eternity before you finally bump your head against the pier of the keep. Digging your feet into the mud of human remains your hand brushes by an old blood-soaked shotgun, the previous owner's severed hand still attached to it. All who enter "Bloodsea Keep" with such items fall victim to your former advisor's favourite past-time: Torture. Any "heretics" still alive inside the keep should be homicidal maniacs at best.
+
+"That's OK" you think, "maybe they brought some more ammo for the shotgun", before cocking the rusty pump-action, causing an eyeball to fly out of the cartridge...]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/bloodsea.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>Sverre Andre Kvernmo (aka "Cranium")</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_canyon" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/Level 04 - Canyon.bat</path>
+		<name>Level 04 - Canyon</name>
+		<desc>
+<![CDATA[No description provided by author.]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/canyon.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>Tim Willits</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="master_levels_XXXX" source="DoomBroLauncher">
+		<path>./Master Levels for Doom II/Alphabetical Order/XXXXXXXXBATFILE</path>
+		<name>XXXXXXXXXXMAPNAME</name>
+		<desc>
+<![CDATA[XXXXXXXXDESCRIPTION]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/master_levels_doom_it_interface.png</image>
+		<rating>0.81</rating>
+		<releasedate>19951226T000000</releasedate>
+		<developer>XXXXXXXXXXXDEVELOPER</developer>
+		<publisher>id Software</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+
 
 </gameList>

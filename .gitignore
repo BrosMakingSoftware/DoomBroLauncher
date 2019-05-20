@@ -18,6 +18,9 @@ Doom/.DoomBroLauncher/screenshots/*
 Doom/.DoomBroLauncher/port/*
 !Doom/.DoomBroLauncher/port/readme-gzdoom.txt
 
+# Temporal folders to zip the releases
+zip/
+
 # Binaries in general
 *.so
 *.dll
