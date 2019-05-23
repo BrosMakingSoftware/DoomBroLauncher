@@ -7,35 +7,57 @@ First release is focused for Windows systems, a Linux version is planned for the
 
 ---
 # Table of Contents
-1. [Motivation](#motivation)
-1. [What makes this launcher different than others of the same kind?](#different)
-1. [Usage](#usage)
-1. [Installation](#installation)
-  1. [Prerequisites](#prerequisites)
-    1. [Doom I (Shareware)](#doom1)
-    1. [The Ultimate Doom](#doomu)
-    1. [Doom II](#doom2)
-    1. [Master Levels of Doom II](#masterlevels)
-    1. [Final Doom](#finaldoom)
-    1. [Officially released levels](#official)
-       1. ["Sewers" and "Betray" levels](#sewers)
-       1. ["No Rest for the Living" episode](#nerve)
-    1. [Semi-official levels](#semiofficial)
-       1. ["The Lost Episode"](#lostepis)
-       1. [John Romero's levels](#romero)
-    1. [Using WadSmoosh to create "Doom Complete" compilation](#wadsmoosh)
- 1. [Steps to install the DoomBroLauncher](#stepsinstall)
-1. [Details of preconfigured settings](#details)
-  1. [Game Settings](#gamesettings)
-  1. [Controller Settings](#controller)
-  1. [Preconfigured controller bindings for XInput devices (Xbox 360 or Xbox One controllers)](#bindings)
-    1. [Xbox 360 and Xbox One key bindings](#xbox)
-1. [Advanced Configuration](#advance)
-  1. [Create more batch-scripts to run new Doom games or mods](#newscript)
-    1. [Create an script for an IWAD (complete games)](#iwad)
-    1. [Create an script for a PWAD](#pwad)
-  1. [Changing the Game Skill (difficulty)](#skill)
-  1. [Integration with EmulationStation](#emulationStation)
+<hr>
+<h1 id="table-of-contents">Table of Contents</h1>
+<ol>
+<li><a href="#motivation">Motivation</a></li>
+<li><a href="#different">What makes this launcher different than others of the same kind?</a></li>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#installation">Installation</a><ol>
+<li><a href="#prerequisites">Prerequisites</a><ol>
+<li><a href="#doom1">Doom I (Shareware)</a></li>
+<li><a href="#doomu">The Ultimate Doom</a></li>
+<li><a href="#doom2">Doom II</a></li>
+<li><a href="#masterlevels">Master Levels of Doom II</a></li>
+<li><a href="#finaldoom">Final Doom</a></li>
+<li><a href="#official">Officially released levels</a><ol>
+<li><a href="#sewers">"Sewers" and "Betray" levels</a></li>
+<li><a href="#nerve">"No Rest for the Living" episode</a></li>
+</ol>
+</li>
+<li><a href="#semiofficial">Semi-official levels</a><ol>
+<li><a href="#lostepis">"The Lost Episode"</a></li>
+<li><a href="#romero">John Romero's levels</a></li>
+</ol>
+</li>
+<li><a href="#wadsmoosh">Using WadSmoosh to create "Doom Complete" compilation</a></li>
+</ol>
+</li>
+<li><a href="#stepsinstall">Steps to install the DoomBroLauncher</a></li>
+</ol>
+</li>
+<li><a href="#details">Details of preconfigured settings</a><ol>
+<li><a href="#gamesettings">Game Settings</a></li>
+<li><a href="#controller">Controller Settings</a></li>
+<li><a href="#bindings">Preconfigured controller bindings for XInput devices (Xbox 360 or Xbox One controllers)</a><ol>
+<li><a href="#xbox">Xbox 360 and Xbox One key bindings</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><a href="#advance">Advanced Configuration</a><ol>
+<li><a href="#newscript">Create more batch-scripts to run new Doom games or mods</a><ol>
+<li><a href="#iwad">Create an script for an IWAD (complete games)</a></li>
+<li><a href="#pwad">Create an script for a PWAD</a></li>
+</ol>
+</li>
+<li><a href="#skill">Changing the Game Skill (difficulty)</a></li>
+<li><a href="#emulationStation">Integration with EmulationStation</a></li>
+</ol>
+</li>
+</ol>
+<hr>
+<p><a name="xxxxxx"></a></p>
 ---
 
 ## 1. Motivation <a name="motivation"></a>
