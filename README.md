@@ -7,57 +7,111 @@ First release is focused for Windows systems, a Linux version is planned for the
 
 ---
 # Table of Contents
-<hr>
-<h1 id="table-of-contents">Table of Contents</h1>
 <ol>
-<li><a href="#motivation">Motivation</a></li>
-<li><a href="#different">What makes this launcher different than others of the same kind?</a></li>
-<li><a href="#usage">Usage</a></li>
-<li><a href="#installation">Installation</a><ol>
-<li><a href="#prerequisites">Prerequisites</a><ol>
-<li><a href="#doom1">Doom I (Shareware)</a></li>
-<li><a href="#doomu">The Ultimate Doom</a></li>
-<li><a href="#doom2">Doom II</a></li>
-<li><a href="#masterlevels">Master Levels of Doom II</a></li>
-<li><a href="#finaldoom">Final Doom</a></li>
-<li><a href="#official">Officially released levels</a><ol>
-<li><a href="#sewers">"Sewers" and "Betray" levels</a></li>
-<li><a href="#nerve">"No Rest for the Living" episode</a></li>
+	<li>
+		<a href="#motivation">Motivation</a>
+	</li>
+	<li>
+		<a href="#different">What makes this launcher different than others of the same kind?</a>
+	</li>
+	<li>
+		<a href="#usage">Usage</a>
+	</li>
+	<li>
+		<a href="#installation">Installation</a>
+		<ol>
+			<li>
+				<a href="#prerequisites">Prerequisites</a>
+				<ol>
+					<li>
+						<a href="#doom1">Doom I (Shareware)</a>
+					</li>
+					<li>
+						<a href="#doomu">The Ultimate Doom</a>
+					</li>
+					<li>
+						<a href="#doom2">Doom II</a>
+					</li>
+					<li>
+						<a href="#masterlevels">Master Levels of Doom II</a>
+					</li>
+					<li>
+						<a href="#finaldoom">Final Doom</a>
+					</li>
+					<li>
+						<a href="#official">Officially released levels</a>
+						<ol>
+							<li>
+								<a href="#sewers">&quot;Sewers&quot; and &quot;Betray&quot; levels</a>
+							</li>
+							<li>
+								<a href="#nerve">&quot;No Rest for the Living&quot; episode</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="#semiofficial">Semi-official levels</a>
+						<ol>
+							<li>
+								<a href="#lostepis">&quot;The Lost Episode&quot;</a>
+							</li>
+							<li>
+								<a href="#romero">John Romero's levels</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="#wadsmoosh">Using WadSmoosh to create &quot;Doom Complete&quot; compilation</a>
+					</li>
+				</ol>
+			</li>
+			<li>
+				<a href="#stepsinstall">Steps to install the DoomBroLauncher</a>
+			</li>
+		</ol>
+	</li>
+	<li>
+		<a href="#details">Details of preconfigured settings</a>
+		<ol>
+			<li>
+				<a href="#gamesettings">Game Settings</a>
+			</li>
+			<li>
+				<a href="#controller">Controller Settings</a>
+			</li>
+			<li>
+				<a href="#bindings">Preconfigured controller bindings for XInput devices (Xbox 360 or Xbox One controllers)</a>
+				<ol>
+					<li>
+						<a href="#xbox">Xbox 360 and Xbox One key bindings</a>
+					</li>
+				</ol>
+			</li>
+		</ol>
+	</li>
+	<li>
+		<a href="#advance">Advanced Configuration</a>
+		<ol>
+			<li>
+				<a href="#newscript">Create more batch-scripts to run new Doom games or mods</a>
+				<ol>
+					<li>
+						<a href="#iwad">Create an script for an IWAD (complete games)</a>
+					</li>
+					<li>
+						<a href="#pwad">Create an script for a PWAD</a>
+					</li>
+				</ol>
+			</li>
+			<li>
+				<a href="#skill">Changing the Game Skill (difficulty)</a>
+			</li>
+			<li>
+				<a href="#emulationStation">Integration with EmulationStation</a>
+			</li>
+		</ol>
+	</li>
 </ol>
-</li>
-<li><a href="#semiofficial">Semi-official levels</a><ol>
-<li><a href="#lostepis">"The Lost Episode"</a></li>
-<li><a href="#romero">John Romero's levels</a></li>
-</ol>
-</li>
-<li><a href="#wadsmoosh">Using WadSmoosh to create "Doom Complete" compilation</a></li>
-</ol>
-</li>
-<li><a href="#stepsinstall">Steps to install the DoomBroLauncher</a></li>
-</ol>
-</li>
-<li><a href="#details">Details of preconfigured settings</a><ol>
-<li><a href="#gamesettings">Game Settings</a></li>
-<li><a href="#controller">Controller Settings</a></li>
-<li><a href="#bindings">Preconfigured controller bindings for XInput devices (Xbox 360 or Xbox One controllers)</a><ol>
-<li><a href="#xbox">Xbox 360 and Xbox One key bindings</a></li>
-</ol>
-</li>
-</ol>
-</li>
-<li><a href="#advance">Advanced Configuration</a><ol>
-<li><a href="#newscript">Create more batch-scripts to run new Doom games or mods</a><ol>
-<li><a href="#iwad">Create an script for an IWAD (complete games)</a></li>
-<li><a href="#pwad">Create an script for a PWAD</a></li>
-</ol>
-</li>
-<li><a href="#skill">Changing the Game Skill (difficulty)</a></li>
-<li><a href="#emulationStation">Integration with EmulationStation</a></li>
-</ol>
-</li>
-</ol>
-<hr>
-<p><a name="xxxxxx"></a></p>
 ---
 
 ## 1. Motivation <a name="motivation"></a>
@@ -65,17 +119,17 @@ The original idea came when one of my best friends asked me for a good source po
 
 So I ended up with a set of batch scripts and folders in certain order so they can be portable and easy to execute. Each Doom game will be represented by their own batch script created based on a template, so the user just need to double click the batch of the game to launch it. Since GZDoom puts the saves, configurations and screenshots files on its root folder (in order to be portable), it can be a problem for people that cannot recognize these files when they try to update the GZDoom software, they can override configurations or delete saves if they are not careful. So to reduce that risk there are different folders: A folder for configurations, a folder for saves, a folder for screenshots and a folder for port binaries. The batch scripts knows the location of these folders thanks to some special [command line parameters](https://zdoom.org/wiki/Command_line_parameters). So, if you want to update GZDoom binaries, you just need to delete the contents of the `Doom/.DoomBroLauncher/port` folder, and then unzip the new ones on it.
 
-I've been working with [Kodi and EmulationStation](https://github.com/BrosMakingSoftware/Kodi-Launches-EmulationStation-Addon) configuring my own HTPC Windows machine and I noticed that the batch-scripts approach of having one script for each game fits very nice with the way how EmulationStation lists and executes roms. Originally to execute Doom games from EmulationStation you need to configure it to filter wads and build an execution line where you call the source port with the wad as parameter, the confusion starts when the wad you want to run is actually a mod (PWAD) so you need a way to define its respective IWAD, which means definitely another way to run the games, so relying this responsibility to batch scripts is the most portable and easy to maintain idea. This is similar to the solution provided for [Retropie](https://github.com/retropie/retropie-setup/wiki/Doom) but less complex. Also since this works with EmulationStation, it was a good idea to preconfigure a settings file to work with XInput devices (Xbox controllers), so we can navigate in Kodi and EmulationStation and play Doom games with a controller from the couch.
+I've been working with [Kodi and EmulationStation](https://github.com/BrosMakingSoftware/Kodi-Launches-EmulationStation-Addon) configuring my own HTPC Windows machine and I noticed that the batch-scripts approach of having one script for each game fits very nice with the way how EmulationStation lists and executes roms. Originally to execute Doom games from EmulationStation you need to configure it to filter wads and build an execution line where you call the source port with the wad as parameter, the confusion starts when the wad you want to run is actually a mod (PWAD) so you need a way to define its respective IWAD, which means definitely another way to run the games, so relying this responsibility to batch scripts is the most portable and easy to maintain idea. This is similar to the solution provided for [Retropie](https://github.com/retropie/retropie-setup/wiki/Doom) but a little less complex. Also since this works with EmulationStation, it was a good idea to preconfigure a settings file to work with XInput devices (Xbox controllers), so we can navigate in Kodi and EmulationStation and play Doom games with a controller from the couch.
 
 ## 2. What makes this launcher different than others of the same kind? <a name="different"></a>
 - Completely open source, hosted on [GitHub](https://github.com/BrosMakingSoftware/DoomBroLauncher) and published under GPL v3 license
-- A preconfigured settings file is provided which enables Xbox controllers with an [intuitive layout](https://github.com/BrosMakingSoftware/DoomBroLauncher#xbox-360-and-xbox-one-key-bindings) and a display resolution of 1920x1080 (Full HD) in full screen, also including some tweaks on the [map display](https://github.com/BrosMakingSoftware/DoomBroLauncher#game-settings) (all of them detailed below in this documentation)
+- A preconfigured settings file is provided which enables Xbox controllers with an [intuitive layout](#xbox) and a display resolution of 1920x1080 (Full HD) in full screen, also including some tweaks on the [map display](#gamesettings) (all of them detailed below in this documentation)
 - The usage of Xbox controllers is optional, the game can still be played with keyboard and mouse
 - Each Doom game is called by individual batch scripts that have a descriptive name and you don't need to enter additional prompts, just run the scripts by double clicking them or calling them from a command line
 - Batch scripts are the native and fastest way to start a program and they are easy to maintain. Other launchers use another scripting languages which means you need an external runtime that not all users may have installed, or they use compiled executables which are harder to edit than a simple `.bat` file. At the end this is just a launcher, let's keep it simple
-- New batch scripts with more Doom games or mods are [easy to add](https://github.com/BrosMakingSoftware/DoomBroLauncher#create-more-batch-scripts-to-run-new-doom-games-or-mods). They reuse common variables defined in a single file which means that any change is reflected on all scripts (for example addition of new parameters)
+- New batch scripts with more Doom games or mods are [easy to add](#newscript). They reuse common variables defined in a single file which means that any change is reflected on all scripts (for example addition of new parameters)
 - Only open source code or programs are used by this project, including the source-port
-- Easy to integrate with EmulationStation: Boxarts, metadata and [documentation](https://github.com/BrosMakingSoftware/DoomBroLauncher#integration-with-emulationstation) is provided below
+- Easy to integrate with EmulationStation: Boxarts, metadata and [documentation](#emulationStation) is provided below.
 
 ## 3. Usage <a name="usage"></a>
 Use this launcher to start Doom Classic games and don't worry about complicated source ports configurations, just copy your games on the wads path and you are ready to play them by running the batch file with the name of your game.
