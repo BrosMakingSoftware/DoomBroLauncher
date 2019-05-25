@@ -18,6 +18,14 @@ Doom/.DoomBroLauncher/screenshots/*
 Doom/.DoomBroLauncher/port/*
 !Doom/.DoomBroLauncher/port/readme-gzdoom.txt
 
+# Wad folders
+Doom/.DoomBroLauncher/wads/*
+!Doom/.DoomBroLauncher/wads/readme-wads.txt
+!Doom/.DoomBroLauncher/wads/master_levels
+
+Doom/.DoomBroLauncher/wads/master_levels/*
+!Doom/.DoomBroLauncher/wads/master_levels/readme-wads.txt
+
 # Temporal folders to zip the releases
 zip/
 
