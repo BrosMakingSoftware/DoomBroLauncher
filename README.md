@@ -33,7 +33,7 @@ First release is focused for Windows systems, a Linux version is planned for the
 						<a href="#413-doom-ii">Doom II</a>
 					</li>
 					<li>
-						<a href="#414-master-levels-of-doom-ii">Master Levels of Doom II</a>
+						<a href="#414-master-levels-for-doom-ii">Master Levels for Doom II</a>
 					</li>
 					<li>
 						<a href="#415-final-doom">Final Doom</a>
@@ -128,7 +128,9 @@ I've been working with [Kodi and EmulationStation](https://github.com/BrosMaking
 - The usage of Xbox controllers is optional, the game can still be played with keyboard and mouse
 - Each Doom game is called by individual batch scripts that have a descriptive name and you don't need to enter additional prompts, just run the scripts by double clicking them or calling them from a command line
 - Batch scripts are the native and fastest way to start a program and they are easy to maintain. Other launchers use another scripting languages which means you need an external runtime that not all users may have installed, or they use compiled executables which are harder to edit than a simple `.bat` file. At the end this is just a launcher, let's keep it simple
+- Lightweight scripts, about 50 KB all of them!
 - New batch scripts with more Doom games or mods are [easy to add](#61-create-more-batch-scripts-to-run-new-doom-games-or-mods). They reuse common variables defined in a single file which means that any change is reflected on all scripts (for example addition of new parameters)
+- Includes scripts to run the `Master Levels for Doom II` with 2 different orders (PC and PSN), without the need to edit TEETH.WAD levels
 - Only open source code or programs are used by this project, including the source-port
 - Easy to integrate with EmulationStation: Boxarts, metadata and [documentation](#63-integration-with-emulationstation) is provided below.
 
@@ -161,8 +163,8 @@ Doom II is commercially distributed:
 * You can buy the game directly from [Steam](https://store.steampowered.com/sub/18397) or [GOG](https://www.gog.com/game/doom_ii_final_doom).
 * You can buy *Doom 3: BFG Edition* from [Steam](https://store.steampowered.com/app/208200/Doom_3_BFG_Edition/) or [GOG](https://www.gog.com/game/doom_3_bfg_edition), it comes with copies of the classic *Ultimate Doom* and *Doom II*. As previously mentioned, these are modified versions.
 
-##### 4.1.4. Master Levels of Doom II
-Master Levels of Doom II is an expansion for Doom II, it is commercially distributed as a bundle with Doom II:
+##### 4.1.4. Master Levels for Doom II
+Master Levels for Doom II is an expansion for Doom II, it is commercially distributed as a bundle with Doom II:
 * You can buy the bundle from [Steam](https://store.steampowered.com/sub/18397) or [GOG](https://www.gog.com/game/doom_ii_final_doom).
 
 ##### 4.1.5. Final Doom
@@ -202,9 +204,9 @@ The levels are:
 We think these levels should be considered as official alternative scenarios, because even when [id Software](https://en.wikipedia.org/wiki/Id_Software) did not release them,  they were released by John Romero himself, with ideas he wanted to implement at the time of designing the original games.
 
 ##### 4.1.8. Using WadSmoosh to create "Doom Complete" compilation
-[WadSmoosh](https://jp.itch.io/wadsmoosh) is an excellent tool for merging _Ultimate Doom_ (including "Sewers" level), _Doom II_ (including "Betray" level), _No Rest for the Living_ episode, _Master Levels of Doom II_ and _Final Doom_ into one single IWAD file. It only works with strictly official releases and creates a `.pk3` file.
+[WadSmoosh](https://jp.itch.io/wadsmoosh) is an excellent tool for merging _Ultimate Doom_ (including "Sewers" level), _Doom II_ (including "Betray" level), _No Rest for the Living_ episode, _Master Levels for Doom II_ and _Final Doom_ into one single IWAD file. It only works with strictly official releases and creates a `.pk3` file.
 
-We highly recommend to create this _Doom Complete_ compilation as it provides a smooth experience, it organizes _The Master Levels of Doom II_ as one single episode and it places the secret exit switches to go to _Sewers_ and _Betray_ levels. For more information, check the [project's web page](https://jp.itch.io/wadsmoosh), and their [forum thread](https://forum.zdoom.org/viewtopic.php?f=19&t=52757).
+We highly recommend to create this _Doom Complete_ compilation as it provides a smooth experience, it organizes _The Master Levels for Doom II_ as one single episode and it places the secret exit switches to go to _Sewers_ and _Betray_ levels. For more information, check the [project's web page](https://jp.itch.io/wadsmoosh), and their [forum thread](https://forum.zdoom.org/viewtopic.php?f=19&t=52757).
 
 ---
 
@@ -218,6 +220,8 @@ We highly recommend to create this _Doom Complete_ compilation as it provides a 
    Check the folder structure in this image:
    ![doombrolauncher_unzipped.png](Resources/images/doombrolauncher_unzipped.png)
 
+	 `Master Levels for Doom II` has 2 folders with one set of scripts each one, one representing the _PC Release order_ and another one with the _PSN Release order_.
+
 3. Download GZDoom:    
    To download **GZDoom**, go to https://zdoom.org/downloads and select the version that matches your Windows system (32 bits or 64 bits), this is important since the program will not start on the wrong system version.
 
@@ -227,7 +231,7 @@ We highly recommend to create this _Doom Complete_ compilation as it provides a 
    ![gzdoom_unzipped_in_port_folder.png](Resources/images/gzdoom_unzipped_in_port_folder.png)
 
 4. Now it's time to copy your Doom games:    
-   Find your `.wad` files from your copies of Doom (depending of your game, it can be in one place or another), and copy them to the `Doom/.DoomBroLauncher/wads` folder.
+   Find your `.wad` files from your copies of Doom (depending of your game, it can be in one place or another, check [this](https://doomwiki.org/wiki/How_to_download_and_run_Doom) for more info), and copy them to the `Doom/.DoomBroLauncher/wads` folder. In the case of `Master Levels for Doom II`, copy all the levels in `Doom/.DoomBroLauncher/wads/master_levels`.
 
    The existing scripts will expect the following `.wad` names:
    <table style="width:100%">
@@ -264,7 +268,13 @@ We highly recommend to create this _Doom Complete_ compilation as it provides a 
       <td>SEWERS.WAD</td>
     </tr>
     <tr>
-      <td>Master Levels of Doom II</td>
+      <td>
+				Master Levels for Doom II
+				<br/><br/>
+				Note #1: Do not edit TEETH.WAD, this launcher works with the original file.
+				<br/><br/>
+				Note #2: These levels are referenced by 2 sets of scripts divided in folders, one representing the _PC Release order_ (alphabetical order) and _PSN Release order_.
+			</td>
       <td>
       	ATTACK.WAD<br/>
       	BLACKTWR.WAD<br/>
@@ -313,6 +323,9 @@ We highly recommend to create this _Doom Complete_ compilation as it provides a 
 
   This is how the folder should look like with ALL the wads:
   ![wads_folder.png](Resources/images/wads_folder.png)
+
+	And the `master_levels` folder:
+	![wads_folder_ml.png](Resources/images/wads_folder_ml.png)
 
 5. You are ready to go to the `Doom` folder to select and start the scripts that correspond to the games you copied from the previous step.
 
@@ -491,5 +504,20 @@ To update the images and metadata, follow these steps:
 
 3. Go to `%HOMEPATH%\.emulationstation\downloaded_images\pc` path (create it if it doesn't exist), and copy all the extracted images.
 
-And everything is done.  
-Next time you start EmulationStation, you will see the Doom games listed with metadata and box arts.
+And everything is done!  
+
+Next time you start EmulationStation, you will see the Doom games listed with metadata and box arts. Here are some examples about how some of them look like on EmulationStation with the `eudora` theme:
+
+This is a retouched box art used as image for The Ultimate Doom:
+![es_dark-doom_u.png](Resources/images/es_dark-doom_u.png)
+
+This is a screenshot of John Romero's "Tech Gone Bad" level with a Doom logo:
+![es_dark-jr-e1m8.png](Resources/images/es_dark-jr-e1m8.png)
+
+This is a screenshot of the first "No Rest for the Living" level with a Doom II logo:
+![es_dark-nerve.png](Resources/images/es_dark-nerve.png)
+
+This is a screenshot of "The Black Tower" level with the "Master Levels for Doom II" logo:
+![es_dark-ml.png](Resources/images/es_dark-ml.png)
+
+**Note**: There is a bug on EmulationStation when it tries to display the metadata for folders, in this case `Master Levels for Doom II`, `Alphabetical Order` and `PSN Release Order`. Instead of displaying the correct metadata, EmulationStation displays some of the metadata of the previous game selected.
