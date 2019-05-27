@@ -10,4 +10,4 @@ REM ---------- End of Script Template ----------
 
 REM Now on our working folder, we call the port with our wads and common parameters
 REM <<Put a descripting comment about the game here>>
-%PORT_EXECUTABLE% %GZDOOM_PARAMETERS% -iwad wads/YOUR-IWAD.WAD -file wads/YOUR-PWAD.WAD
+%PORT_EXECUTABLE% %PORT_PARAMETERS% -iwad wads/YOUR-IWAD.WAD -file wads/YOUR-PWAD.WAD
