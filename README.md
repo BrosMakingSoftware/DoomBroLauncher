@@ -324,8 +324,8 @@ We highly recommend to create this _Doom Complete_ compilation as it provides a 
   This is how the folder should look like with ALL the wads:
   ![wads_folder.png](Resources/images/wads_folder.png)
 
-	And the `master_levels` folder:
-	![wads_folder_ml.png](Resources/images/wads_folder_ml.png)
+  And the `master_levels` folder:
+  ![wads_folder_ml.png](Resources/images/wads_folder_ml.png)
 
 5. You are ready to go to the `Doom` folder to select and start the scripts that correspond to the games you copied from the previous step.
 
