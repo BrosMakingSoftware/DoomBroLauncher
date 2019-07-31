@@ -556,7 +556,7 @@ This is a screenshot of the first "No Rest for the Living" level with a Doom II 
 This is a screenshot of "The Black Tower" level with the "Master Levels for Doom II" logo:
 ![es_dark-ml.png](Resources/images/es_dark-ml.png)
 
-Starting with DoomBroLauncher version 1.1, John Romero's SIGIL episode is supported:
+Starting with DoomBroLauncher v1.2, John Romero's SIGIL episode is supported:
 ![es_dark-ml.png](Resources/images/es_dark-sigil.png)
 
 **Note**: There is a bug on EmulationStation when it tries to display the metadata for folders, in this case `Master Levels for Doom II`, `Alphabetical Order` and `PSN Release Order`. Instead of displaying the correct metadata, EmulationStation displays some of the metadata of the previous game selected.
