@@ -7,7 +7,7 @@
 		<path>./All Official Dooms (WadSmoosh's Doom Complete).bat</path>
 		<name>All Official Dooms (WadSmoosh's Doom Complete)</name>
 		<desc>
-<![CDATA[Doom Complete is a compilation of all the classic Doom games officially released by id Software, also including extra maps from Doom special editions which were officially released too. All the episodes of Doom are merged in one single game and can be started without restarting it. Doom Complete has a total of 160 levels grouped in 9 episodes. To merge all levels, the WadSmoosh's Doom Complete tool is used and can be found at https://jp.itch.io/wadsmoosh
+<![CDATA[Doom Complete is a compilation of all the classic Doom games officially released by id Software, also including extra maps from Doom special editions which were officially released too. All the episodes of Doom are merged in one single game and can be started without restarting it. To merge all levels, the WadSmoosh's Doom Complete tool is needed and can be found at https://jp.itch.io/wadsmoosh
 
 The Episodes are displayed on a single list ordered chronologically based on the game series, grouping the episodes based on the games, we have the following structure:
 
@@ -17,9 +17,12 @@ The Ultimate Doom:
 - Inferno
 - Thy Flesh Consumed
 
+Sigil:
+- Sigil: John Romero's 5th Episode for The Ultimate Doom.
+
 Doom II:
 - Hell on Earth: With the addition of "Betray", another secret exclusive level from Xbox (bug-fixed version)
-- No Rest for the Living: New episode from Doom 3 BFG Edition with 9 levels (1 is secret). Since this level is played using the original Doom II, you can play it uncensored.
+- No Rest for the Living: New episode from Doom 3 BFG Edition with 9 levels (1 is secret). If using the original Doom II, you can play it uncensored.
 - The Master Levels: The expansion called "Master Levels for Doom II" grouped in one episode
 
 Final Doom:
@@ -30,13 +33,13 @@ Final Doom:
 Credits:
 
 Doom:
-Description: Original MS-DOS version. It was originally distributed as a shareware containing just the first episode called "Knee-Deep in the Dead" including 9 levels, while the full registered version added the second episode called "The Shores of Hell" including 9 levels (1 is secret), and the third episode called "Inferno" including 9 levels (1 is secret), for a total of 3 episodes and 27 levels.
+Description: It was originally distributed as a shareware containing just the first episode called "Knee-Deep in the Dead" including 9 levels, while the full registered version added the second episode called "The Shores of Hell" including 9 levels (1 is secret), and the third episode called "Inferno" including 9 levels (1 is secret), for a total of 3 episodes and 27 levels.
 Released date: December 10, 1993
 Developed by: id Software
 Published by: id Software
 
 The Ultimate Doom:
-Description: Original MS-DOS version. Contains the 3 episodes of the previous Doom version and adds a new fourth episode called "Thy Flesh Consumed" including 9 episodes (1 is secret), for a total of 4 episodes and 32 levels.
+Description: Contains the 3 episodes of the previous Doom version and adds a new fourth episode called "Thy Flesh Consumed" including 9 episodes (1 is secret), for a total of 4 episodes and 32 levels.
 Release date: April 30, 1995
 Developed by: id Software
 Published by: id Software
@@ -47,8 +50,14 @@ Release date: April 3, 2005
 Developed by: Vicarious Visions, id Software
 Published by: Activision
 
+Sigil:
+Description: John Romero's 5th episode for The Ultimate Doom.
+Release date: May 22, 2019
+Developed by: John Romero
+Published by: Romero Games
+
 Doom II: Hell on Earth:
-Description: Original MS-DOS version. Includes 32 levels (2 are secrets), levels are not grouped in episodes.
+Description: Includes 32 levels (2 are secrets), levels are not grouped in episodes.
 Release date: September 30, 1994
 Developed by: id Software
 Published by: id Software
@@ -60,13 +69,13 @@ Developed by: Nerve Software
 Published by: Activision (original publisher), Bethesda Softworks (replacing it on October 31, 2012)
 
 Master Levels for Doom II:
-Description: Original MS-DOS version. This is an expansion for Doom II including 21 levels (1 is secret). They are not grouped in episodes and originally they are ordered alphabetically based on the maps file names. Since they are individual levels, health, armor, weapons and ammo are not carried over, each level is started with the initial status.
+Description: This is an expansion for Doom II including 21 levels (1 is secret). They are not grouped in episodes and originally they are ordered alphabetically based on the maps file names. Since they are individual levels, health, armor, weapons and ammo are not carried over, each level is started with the initial status.
 Release date: December 26, 1995
 Developed by: id Software
 Published by: id Software
 
 Final Doom:
-Description: Original MS-DOS version. Final Doom is a compilation of 2 games, "TNT: Evilution" containing 32 levels (2 are secrets), and "The Plutonia Experiment" containing 32 levels (2 are secrets), for a total of 64 levels.
+Description: Final Doom is a compilation of 2 games, "TNT: Evilution" containing 32 levels (2 are secrets), and "The Plutonia Experiment" containing 32 levels (2 are secrets), for a total of 64 levels.
 Release date: June 17, 1996
 Developed by: TeamTNT, Casali brothers
 Published by: id Software]]>
@@ -214,6 +223,25 @@ With the Toxin Refinery in the rear-view, you make your way to Phobos Mission Co
 		<releasedate>20050403T000000</releasedate>
 		<developer>Vicarious Visions</developer>
 		<publisher>Activision</publisher>
+		<genre>FPS, Action</genre>
+		<players>1</players>
+	</game>
+
+	<game id="doom1_mod_jr_sigil" source="DoomBroLauncher">
+		<path>./MD1 - Sigil (John Romero's 5th Episode) [E5M1 to E5M9].bat</path>
+		<name>MD1 - Sigil (John Romero's 5th Episode) [E5M1 to E5M9]</name>
+		<desc>
+<![CDATA[Baphomet was only doing Satan's bidding by placing a powerful sigil in the teleporter out of E4M8 to bring you back to Hell. Somehow they didn't understand that you're the reason they failed in the first place.
+
+It's time to trash the place with your arsenal, get out of Hell, and back to Earth to face the more advanced demons that were sent ahead.
+
+Lock and load. Rip and tear.]]>
+		</desc>
+		<image>~/.emulationstation/downloaded_images/pc/sigil.jpg</image>
+		<rating>0.9</rating>
+		<releasedate>20190522T000000</releasedate>
+		<developer>John Romero</developer>
+		<publisher>Romero Games</publisher>
 		<genre>FPS, Action</genre>
 		<players>1</players>
 	</game>

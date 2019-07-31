@@ -58,6 +58,9 @@ First release is focused for Windows systems, a Linux version is planned for the
 							<li>
 								<a href="#4172-john-romeros-levels">John Romero's levels</a>
 							</li>
+							<li>
+								<a href="#4173-john-romeros-sigil">John Romero's SIGIL</a>
+							</li>
 						</ol>
 					</li>
 					<li>
@@ -203,8 +206,12 @@ The levels are:
 
 We think these levels should be considered as official alternative scenarios, because even when [id Software](https://en.wikipedia.org/wiki/Id_Software) did not release them,  they were released by John Romero himself, with ideas he wanted to implement at the time of designing the original games.
 
+###### 4.1.7.3. John Romero's SIGIL
+SIGIL is a new 5th episode for the original Doom released by John Romero to celebrate the 25th Anniversary of Doom.  
+You can get Sigil by purchasing it at https://www.romerogames.ie/si6il, or you can download the free version from the same site. The difference between both versions is that purchased one includes the soundtrack by [Buckethead](https://en.wikipedia.org/wiki/Buckethead), while the free version includes the MIDI soundtrack by [James Paddock](https://doomwiki.org/wiki/James_Paddock_%28Jimmy%29).
+
 ##### 4.1.8. Using WadSmoosh to create "Doom Complete" compilation
-[WadSmoosh](https://jp.itch.io/wadsmoosh) is an excellent tool for merging _Ultimate Doom_ (including "Sewers" level), _Doom II_ (including "Betray" level), _No Rest for the Living_ episode, _Master Levels for Doom II_ and _Final Doom_ into one single IWAD file. It only works with strictly official releases and creates a `.pk3` file.
+[WadSmoosh](https://jp.itch.io/wadsmoosh) is an excellent tool for merging _Ultimate Doom_ (including "Sewers" level), _Doom II_ (including "Betray" level), _No Rest for the Living_ episode for Doom II, _Master Levels for Doom II_, _Final Doom_ and _Sigil_ into one single IWAD file. It only works with strictly official releases and creates a `.pk3` file.
 
 We highly recommend to create this _Doom Complete_ compilation as it provides a smooth experience, it organizes _The Master Levels for Doom II_ as one single episode and it places the secret exit switches to go to _Sewers_ and _Betray_ levels. For more information, check the [project's web page](https://jp.itch.io/wadsmoosh), and their [forum thread](https://forum.zdoom.org/viewtopic.php?f=19&t=52757).
 
@@ -264,14 +271,10 @@ We highly recommend to create this _Doom Complete_ compilation as it provides a 
       <td>PLUTONIA.WAD</td>
     </tr>
     <tr>
-      <td>Mod for Doom 1 - Sewers (Xbox Level) [E3M1]</td>
-      <td>SEWERS.WAD</td>
-    </tr>
-    <tr>
       <td>
 				Master Levels for Doom II
 				<br/><br/>
-				Note #1: Do not edit TEETH.WAD, this launcher works with the original file.
+				Note #1: There is no need to modify TEETH.WAD, this launcher works with the original file.
 				<br/><br/>
 				Note #2: These levels are referenced by 2 sets of scripts divided in folders, one representing the _PC Release order_ (alphabetical order) and _PSN Release order_.
 			</td>
@@ -298,12 +301,45 @@ We highly recommend to create this _Doom Complete_ compilation as it provides a 
       	VIRGIL.WAD<br/>
       </td>
     </tr>
+		<tr>
+      <td>Mod for Doom 1 - Sewers (Xbox Level) [E3M1]</td>
+      <td>SEWERS.WAD</td>
+    </tr>
     <tr>
-    <tr>
+      <td>
+				Mod for Doom 1 - Sigil (John Romero's 5th Episode) [E5M1 to E5M9]
+				<br/><br/>
+				Note #1: There are 4 ways to play Sigil: Free or Purchased versions, and for each of them: Normal or Compatible versions. The priority of loading is determined by the script depending of the files it finds, check the groups listed (from 1 to 4) on the next column.
+				<br/><br/>
+				Note #2: Purchased versions are defined by the existence of the "SHREDS" files (`SIGIL_SHREDS.wad` for normal version, `SIGIL_SHREDS_COMPAT.wad` for the compatible version).
+				<br/><br/>
+				Note #3: Compatible versions are focused to not overload the vanilla engines limitations. They are defined by the existence of the "COMPAT" files (`SIGIL_SHREDS_COMPAT.wad` for purchased version, `SIGIL_COMPAT.wad` for the free version). GZDoom is not a vanilla engine since it actually add enhancements to the games and it is able to overpass the original limitations, so it doesn't require these versions.
+				<br/><br/>
+			</td>
+      <td>
+				All the following combinations of wads are supported:
+				<br/><br/>
+				1. Purchased Sigil:<br/>
+				SIGIL.wad<br/>
+				SIGIL_SHREDS.wad<br/>
+				<br/>
+				2. Purchased Compatible Sigil:<br/>
+				SIGIL_COMPAT.wad<br/>
+				SIGIL_SHREDS_COMPAT.wad<br/>
+				<br/>
+				3. Free Sigil:<br/>
+				SIGIL.wad<br/>
+				<br/>
+				4. Free Compatible Sigil<br/>
+				SIGIL_COMPAT.wad
+				<br/>
+			</td>
+    </tr>
+		<tr>
       <td>Mod for Doom 1 - Tech Gone Bad (John Romero) [E1M8]</td>
       <td>e1m8b.wad</td>
     </tr>
-    <tr>
+		<tr>
       <td>Mod for Doom 1 - Phobos Mission Control (John Romero) [E1M4]]</td>
       <td>e1m4b.wad</td>
     </tr>
@@ -519,5 +555,8 @@ This is a screenshot of the first "No Rest for the Living" level with a Doom II 
 
 This is a screenshot of "The Black Tower" level with the "Master Levels for Doom II" logo:
 ![es_dark-ml.png](Resources/images/es_dark-ml.png)
+
+Starting with DoomBroLauncher v1.2, John Romero's SIGIL episode is supported:
+![es_dark-ml.png](Resources/images/es_dark-sigil.png)
 
 **Note**: There is a bug on EmulationStation when it tries to display the metadata for folders, in this case `Master Levels for Doom II`, `Alphabetical Order` and `PSN Release Order`. Instead of displaying the correct metadata, EmulationStation displays some of the metadata of the previous game selected.
